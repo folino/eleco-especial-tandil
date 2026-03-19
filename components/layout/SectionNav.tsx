@@ -26,23 +26,29 @@ export default function SectionNav() {
   }, [])
 
   useEffect(() => {
-    const observers: IntersectionObserver[] = []
+    const onScroll = () => {
+      const viewportMid = window.innerHeight / 3
 
-    sections.forEach(({ id }) => {
-      const el = document.getElementById(id)
-      if (!el) return
+      let closest = sections[0].id
+      let closestDist = Infinity
 
-      const observer = new IntersectionObserver(
-        ([entry]) => {
-          if (entry.isIntersecting) setActive(id)
-        },
-        { threshold: 0.3 }
-      )
-      observer.observe(el)
-      observers.push(observer)
-    })
+      sections.forEach(({ id }) => {
+        const el = document.getElementById(id)
+        if (!el) return
+        const top = el.getBoundingClientRect().top
+        const dist = Math.abs(top - viewportMid)
+        if (top <= viewportMid + window.innerHeight && dist < closestDist) {
+          closestDist = dist
+          closest = id
+        }
+      })
 
-    return () => observers.forEach(o => o.disconnect())
+      setActive(closest)
+    }
+
+    window.addEventListener('scroll', onScroll, { passive: true })
+    onScroll()
+    return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
   const scrollTo = (id: string) => {
