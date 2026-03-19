@@ -31,7 +31,7 @@
     @apply text-body-lg text-text-primary mb-6 leading-relaxed;
   }
 
-  .prose-editorial p:first-of-type::first-letter {
+  .pdadsrose-editorial p:first-of-type::first-letter {
     @apply font-display text-5xl md:text-6xl float-left mr-3 mt-1 leading-none text-sierra;
   }
 

@@ -1,6 +1,7 @@
 'use client'
 
 import { useRef } from 'react'
+import Image from 'next/image'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
@@ -67,6 +68,7 @@ export default function HeroSection() {
     gsap.to([titleRef.current, subtitleRef.current, dataRef.current], {
       opacity: 0,
       y: -40,
+      immediateRender: false,
       scrollTrigger: {
         trigger: sectionRef.current,
         start: '20% top',
@@ -85,44 +87,27 @@ export default function HeroSection() {
       <div
         ref={bgRef}
         className="absolute inset-0 -top-[10%] -bottom-[10%]"
-        style={{
-          background: `
-            linear-gradient(180deg, 
-              rgba(26,26,46,0.3) 0%, 
-              rgba(26,26,46,0.1) 40%, 
-              rgba(139,115,85,0.15) 70%,
-              rgba(250,250,248,1) 100%
-            ),
-            linear-gradient(135deg, 
-              #4a6741 0%, 
-              #7a8b6e 25%, 
-              #a8c4a0 45%, 
-              #8B9F82 65%, 
-              #6d7a61 100%
-            )
-          `,
-        }}
       >
-        {/* TODO: Replace with real photo */}
-        {/* <Image src="/images/tandil-hero.webp" alt="" fill className="object-cover" priority /> */}
-
-        {/* Simulated mountain silhouette */}
-        <svg
-          className="absolute bottom-0 left-0 right-0 w-full"
-          viewBox="0 0 1440 320"
-          preserveAspectRatio="none"
-          style={{ height: '35%' }}
-        >
-          <path
-            fill="rgba(139,115,85,0.12)"
-            d="M0,224 C120,160 240,200 360,180 C480,160 540,120 720,140 C900,160 1020,100 1200,130 C1320,150 1400,180 1440,200 L1440,320 L0,320Z"
-          />
-          <path
-            fill="rgba(250,250,248,0.6)"
-            d="M0,260 C180,220 300,250 480,230 C660,210 800,190 960,210 C1120,230 1280,250 1440,240 L1440,320 L0,320Z"
-          />
-        </svg>
+        <Image
+          src="/tandil-prueba.jpg"
+          alt="Tandil"
+          fill
+          className="object-cover"
+          priority
+        />
       </div>
+
+      {/* Gradient overlay */}
+      <div
+        className="absolute inset-0 pointer-events-none"
+        style={{
+          background: `linear-gradient(180deg,
+            rgba(10,10,20,0.85) 0%,
+            rgba(10,10,20,0.75) 50%,
+            rgba(10,10,20,0.9) 100%
+          )`,
+        }}
+      />
 
       {/* Noise overlay */}
       <div className="absolute inset-0 noise-overlay pointer-events-none" />
@@ -130,14 +115,14 @@ export default function HeroSection() {
       {/* Content */}
       <div className="relative z-10 max-w-4xl mx-auto px-5 md:px-8 text-center">
         {/* Kicker */}
-        <p className="text-xs md:text-sm uppercase tracking-[0.3em] text-sierra-dark/70 mb-6 font-body">
+        <p className="text-xs md:text-sm uppercase tracking-[0.3em] text-white/70 mb-6 font-body">
           Especial · El Eco de Tandil
         </p>
 
         {/* Title */}
         <h1
           ref={titleRef}
-          className="font-display text-hero text-text-primary opacity-0 mb-6"
+          className="font-display text-hero text-white opacity-0 mb-6"
         >
           Tandil, la ciudad que creció antes de decidir quién quería ser
         </h1>
@@ -145,7 +130,7 @@ export default function HeroSection() {
         {/* Subtitle */}
         <p
           ref={subtitleRef}
-          className="text-lg md:text-xl text-text-secondary font-body font-light leading-relaxed max-w-2xl mx-auto opacity-0 mb-12"
+          className="text-lg md:text-xl text-white/80 font-body font-light leading-relaxed max-w-2xl mx-auto opacity-0 mb-12"
         >
           Cómo una ciudad intermedia del sur bonaerense se convirtió en uno de los fenómenos 
           urbanos más llamativos de la Argentina contemporánea

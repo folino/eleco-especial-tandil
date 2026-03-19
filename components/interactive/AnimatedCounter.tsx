@@ -76,10 +76,10 @@ export default function AnimatedCounter({
   }, { scope: counterRef })
 
   return (
-    <div ref={counterRef} className="opacity-0 text-center">
+    <div ref={counterRef} className="opacity-0 text-center min-w-0">
       <span
         ref={numberRef}
-        className={`data-highlight block ${colorClass}`}
+        className={`data-highlight block truncate ${colorClass}`}
       >
         {prefix}0{suffix}
       </span>

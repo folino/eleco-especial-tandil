@@ -12,21 +12,21 @@ const conclusions = [
   {
     number: '01',
     title: 'Infraestructura desfasada',
-    text: 'El crecimiento demográfico y constructivo no fue acompañado por infraestructura al mismo ritmo. La planta de efluentes saturada antes de tiempo y la red cloacal ajustada indican que la planificación quedó desfasada frente a la expansión.',
+    text: 'El crecimiento demográfico y constructivo no fue acompañado por infraestructura al mismo ritmo. La planta de efluentes saturada antes de tiempo y la red cloacal ajustada indican que la planificación quedó desfasada frente a la expansión urbana.',
     accent: 'border-accent-alert/30',
     numberColor: 'text-accent-alert',
   },
   {
     number: '02',
     title: 'Más construcción ≠ más acceso',
-    text: 'Aumentaron las viviendas y los metros cuadrados edificados, pero creció la dificultad habitacional y disminuyó la proporción de propietarios. El mercado produce ciudad pero no necesariamente integración.',
+    text: 'Aumentaron las viviendas y los metros cuadrados edificados, pero creció la dificultad habitacional y disminuyó la proporción de propietarios. Esto sugiere concentración del suelo y un mercado que produce ciudad pero no necesariamente integración.',
     accent: 'border-accent-warm/30',
     numberColor: 'text-accent-warm',
   },
   {
     number: '03',
     title: 'Herramientas sin ejecución plena',
-    text: 'El Estado cuenta con herramientas pero no logra utilizarlas plenamente para orientar el modelo urbano. La baja utilización de la plusvalía revela una capacidad limitada para conducir el proceso frente a la lógica del mercado.',
+    text: 'El Estado cuenta con herramientas pero no logra utilizarlas plenamente para orientar el modelo urbano. La baja utilización de la plusvalía y de instrumentos de gestión del suelo revela una capacidad limitada para conducir el proceso frente a la lógica del mercado.',
     accent: 'border-sierra/30',
     numberColor: 'text-sierra',
   },
@@ -77,18 +77,54 @@ export default function PivotSection() {
             El momento bisagra
           </h2>
           <p className="text-lg text-text-secondary font-body max-w-2xl mx-auto leading-relaxed">
-            La ciudad todavía está a tiempo de elegir un modelo claro. 
-            Compacto o disperso. Integrado o fragmentado. Con acceso público real a su 
+            La ciudad todavía está a tiempo de elegir un modelo claro.
+            Compacto o disperso. Integrado o fragmentado. Con acceso público real a su
             patrimonio natural o con creciente privatización del paisaje serrano.
           </p>
         </FadeIn>
+
+        {/* Narrative text */}
+        <div className="prose-editorial !mb-14 md:!mb-20">
+          <FadeIn>
+            <p>
+              Tandil está en un momento bisagra. Esa expresión, usada por los propios analistas
+              que estudian la ciudad, captura con precisión la naturaleza del instante que
+              atraviesa. Su escala todavía permite planificar con anticipación, pero la velocidad
+              del crecimiento la está empujando hacia un punto de no retorno.
+            </p>
+          </FadeIn>
+
+          <FadeIn delay={0.1}>
+            <p>
+              Las sierras son exactamente lo que define a Tandil ante el mundo, y son exactamente
+              el recurso al que amplios sectores de la propia población local no tienen garantizado
+              el acceso. Son mayoritariamente de propiedad privada y cuentan con escaso acceso
+              público formal. Los mismos activos que atrajeron a Luli y Matt desde Colorado y a
+              Delfina y Mariano desde Belgrano son los que están en tensión permanente con la
+              lógica del mercado inmobiliario.
+            </p>
+          </FadeIn>
+
+          <FadeIn delay={0.15}>
+            <p>
+              En mayo de 2023 el Municipio publicó el informe de localización de la Agenda 2030
+              en el Partido de Tandil, que analiza cómo se integran los Objetivos de Desarrollo
+              Sostenible de las Naciones Unidas en las políticas públicas locales. El documento
+              plantea que Tandil, como muchas ciudades intermedias, enfrenta un escenario global
+              atravesado por crisis ambientales, económicas, sanitarias y humanitarias. Entre los
+              ejes planteados aparece la transformación ambiental, con metas vinculadas a la
+              reducción de emisiones de carbono, el impulso de energías renovables, la gestión
+              integral de residuos y la promoción de sistemas de movilidad urbana más sostenibles.
+            </p>
+          </FadeIn>
+        </div>
 
         {/* Three conclusions */}
         <div ref={cardsRef} className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto mb-16 md:mb-20">
           {conclusions.map((item, i) => (
             <div
               key={i}
-              className={`conclusion-card opacity-0 bg-white rounded-xl p-6 md:p-8 
+              className={`conclusion-card opacity-0 bg-white rounded-xl p-6 md:p-8
                          border-l-4 ${item.accent} shadow-sm hover:shadow-md transition-shadow`}
             >
               <span className={`font-mono text-sm ${item.numberColor} tracking-wide`}>
@@ -111,17 +147,20 @@ export default function PivotSection() {
               El contrapunto
             </p>
             <p className="text-body-lg text-text-primary leading-relaxed">
-              El CONICET ubica a Tandil entre las ciudades intermedias con mejores niveles de 
-              calidad de vida de Argentina. Su posición geográfica estratégica, su bajo nivel 
-              relativo de conflictividad social, sus elevados niveles de participación ciudadana 
-              y su creciente impulso emprendedor permiten un desarrollo económico y social 
-              armónico que la convirtió en referente regional y nacional.
+              El CONICET ubica a Tandil entre las ciudades intermedias con mejores niveles de
+              calidad de vida de Argentina. Su posición geográfica estratégica, su bajo nivel
+              relativo de conflictividad social, sus elevados niveles de participación ciudadana,
+              su alto grado de articulación institucional y su creciente impulso emprendedor
+              permiten un desarrollo económico y social armónico que la convirtió en referente
+              regional y nacional. Son datos que la ciudad puede exhibir con legítimo orgullo.
             </p>
             <p className="mt-4 text-body-lg text-text-secondary leading-relaxed">
-              Pero ese capital puede erosionarse si el crecimiento no se acompaña de 
-              planificación que garantice acceso equitativo a los bienes que hacen tan atractiva 
-              a esta ciudad. Las sierras, el aire limpio, la escala humana, la tranquilidad — 
-              son exactamente los activos que están en tensión.
+              Pero ese capital puede erosionarse si el crecimiento no se acompaña de
+              planificación que garantice acceso equitativo a los bienes que hacen tan atractiva
+              a esta ciudad. Las sierras, el aire limpio, la escala humana, la tranquilidad —
+              son exactamente los activos que están en tensión. Si no hay planificación
+              estratégica, el crecimiento continuará, pero consolidando desigualdades
+              territoriales y tensionando la infraestructura existente.
             </p>
           </div>
         </FadeIn>

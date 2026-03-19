@@ -1,4 +1,5 @@
 import HeroSection from '@/components/sections/HeroSection'
+import LeadSection from '@/components/sections/LeadSection'
 import IntermediaSection from '@/components/sections/IntermediaSection'
 import TimelineSection from '@/components/sections/TimelineSection'
 import NumbersSection from '@/components/sections/NumbersSection'
@@ -12,6 +13,7 @@ export default function Home() {
   return (
     <>
       <HeroSection />
+      <LeadSection />
       <IntermediaSection />
       <TimelineSection />
       <NumbersSection />

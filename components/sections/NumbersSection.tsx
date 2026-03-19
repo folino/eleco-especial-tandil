@@ -16,8 +16,22 @@ export default function NumbersSection() {
           </h2>
         </FadeIn>
 
+        {/* Intro text */}
+        <div className="prose-editorial !mb-14 md:!mb-20">
+          <FadeIn>
+            <p>
+              El Censo 2022 registró 150.162 habitantes en Tandil, un 20,5 por ciento más que
+              en 2010, por encima del promedio nacional para ese período. El economista Sebastián
+              Auguste lo traduce en términos concretos y cotidianos: con esos números, el municipio
+              tiene por día 5,8 personas nuevas para atender, lo que requiere al menos dos casas
+              por día. Esa demanda constante y sostenida explica buena parte de la presión que el
+              mercado inmobiliario local viene experimentando desde hace más de una década.
+            </p>
+          </FadeIn>
+        </div>
+
         {/* Counters grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-6 max-w-4xl mx-auto mb-16 md:mb-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 md:gap-6 max-w-5xl mx-auto mb-16 md:mb-20">
           <AnimatedCounter
             end={150162}
             label="Habitantes (2022)"
@@ -49,30 +63,32 @@ export default function NumbersSection() {
         <div className="prose-editorial">
           <FadeIn>
             <p>
-              Pero hay una dimensión del crecimiento que los censos todavía no han podido 
-              capturar en toda su magnitud. Hay una percepción generalizada y consistente entre 
-              comerciantes, inmobiliarias, directivos de colegios y vecinos de que la pandemia 
-              aceleró un proceso que ya venía en marcha y que los números de los próximos años 
-              serán aún más llamativos.
+              Pero hay una dimensión del crecimiento que los censos todavía no han podido
+              capturar en toda su magnitud. El último se realizó en 2022 y hay una percepción
+              generalizada y consistente entre comerciantes, inmobiliarias, directivos de
+              colegios y vecinos de que la pandemia aceleró un proceso que ya venía en marcha
+              y que los números de los próximos años serán aún más llamativos.
             </p>
           </FadeIn>
 
           <FadeIn delay={0.1}>
             <p>
-              Miles de trabajadores descubrieron que podían hacer su trabajo desde cualquier 
-              lugar con conexión a internet. Para muchos de ellos, ese lugar pasó a ser una casa 
-              con jardín en Tandil, con las sierras a diez minutos y con una calidad de vida que 
-              la Capital Federal difícilmente puede ofrecer a precios similares.
+              Miles de trabajadores descubrieron que podían hacer su trabajo desde cualquier
+              lugar con conexión a internet. Para muchos de ellos, ese lugar pasó a ser una
+              casa con jardín en Tandil, con las sierras a diez minutos y con una calidad de
+              vida que la Capital Federal difícilmente puede ofrecer a precios similares.
             </p>
           </FadeIn>
 
           <FadeIn delay={0.15}>
             <p>
-              Los colegios vienen registrando incrementos de matrícula que exceden los 
-              proyectados. Los comercios del centro reportan un movimiento sin precedentes fuera 
-              de temporada turística. Las inmobiliarias señalan que la demanda supera con creces 
-              la oferta. Y los vecinos de barrios que hace diez años eran periféricos se 
-              encontraron de repente en medio de una ciudad que no para de densificarse.
+              Los colegios de la ciudad vienen registrando incrementos de matrícula que exceden
+              los proyectados. Los comercios del centro reportan un movimiento que no tiene
+              precedentes en períodos fuera de temporada turística. Las inmobiliarias señalan
+              que la demanda de propiedades para alquiler y compra supera con creces a la oferta
+              disponible. Y los vecinos de barrios que hace diez años eran periféricos y
+              silenciosos se encontraron de repente en medio de una ciudad que no para de
+              densificarse a su alrededor.
             </p>
           </FadeIn>
         </div>
