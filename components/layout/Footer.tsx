@@ -32,14 +32,14 @@ export default function Footer() {
             </a>
             <span className="text-white/20">·</span>
             <a
-              href="#"
+              href="https://www.instagram.com/elecodetandil"
               className="hover:text-white/70 transition-colors text-sm"
             >
               Instagram
             </a>
             <span className="text-white/20">·</span>
             <a
-              href="#"
+              href="https://youtube.com/elecodetandil"
               className="hover:text-white/70 transition-colors text-sm"
             >
               YouTube

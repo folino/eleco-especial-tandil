@@ -74,7 +74,7 @@ type LayerKey = 'barrios' | 'rutas' | 'landmarks'
 
 export default function TandilMap() {
   const [activeLayers, setActiveLayers] = useState<Set<LayerKey>>(
-    new Set(['barrios', 'rutas', 'landmarks'])
+    new Set(['barrios', 'rutas', 'landmarks'] as LayerKey[])
   )
 
   const toggleLayer = (layer: LayerKey) => {
