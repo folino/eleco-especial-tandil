@@ -64,18 +64,6 @@ export default function HeroSection() {
       '-=0.2'
     )
 
-    // Fade out on scroll
-    gsap.to([titleRef.current, subtitleRef.current, dataRef.current], {
-      opacity: 0,
-      y: -40,
-      immediateRender: false,
-      scrollTrigger: {
-        trigger: sectionRef.current,
-        start: '20% top',
-        end: '50% top',
-        scrub: true,
-      },
-    })
   }, { scope: sectionRef })
 
   return (

@@ -1,6 +1,7 @@
 'use client'
 
 import { useRef, useState, useEffect } from 'react'
+import Image from 'next/image'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
@@ -58,14 +59,23 @@ export default function Header() {
       <div className="bg-cream/90 backdrop-blur-md border-b border-sierra/10">
         <div className="max-w-content mx-auto px-5 py-3 flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center gap-3">
-            <span className="font-display font-bold text-lg tracking-tight text-text-primary">
-              El Eco
-            </span>
+          <button
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            aria-label="Volver al inicio"
+            className="flex items-center gap-3"
+          >
+            <Image
+              src="/logo.png"
+              alt="El Eco de Tandil"
+              width={120}
+              height={36}
+              className="h-8 w-auto object-contain"
+              priority
+            />
             <span className="hidden sm:inline text-xs text-text-secondary font-body tracking-widest uppercase">
               Especial
             </span>
-          </div>
+          </button>
 
           {/* Share */}
           <button
