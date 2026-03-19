@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=DM+Mono:wght@300;400;500&display=swap');
+
+@layer base {
+  html {
+    scroll-behavior: auto; /* Lenis handles smooth scroll */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-cream text-text-primary font-body;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background-color: rgba(139, 115, 85, 0.25);
+  }
+}
+
+@layer components {
+  /* Editorial text column */
+  .prose-editorial {
+    @apply max-w-prose-wide mx-auto px-5 md:px-8;
+  }
+
+  .prose-editorial p {
+    @apply text-body-lg text-text-primary mb-6 leading-relaxed;
+  }
+
+  .prose-editorial p:first-of-type::first-letter {
+    @apply font-display text-5xl md:text-6xl float-left mr-3 mt-1 leading-none text-sierra;
+  }
+
+  /* Section spacing */
+  .section-padding {
+    @apply py-section;
+  }
+
+  /* Horizontal rule editorial */
+  .hr-editorial {
+    @apply w-16 h-px bg-sierra/40 mx-auto my-12;
+  }
+
+  /* Data highlight */
+  .data-highlight {
+    @apply font-mono text-data-big font-medium tracking-tight;
+  }
+
+  /* Pull quote */
+  .pull-quote {
+    @apply font-display italic text-pull-quote text-sierra-dark 
+           border-l-2 border-sierra/30 pl-6 md:pl-8 my-10 md:my-14;
+  }
+
+  /* Placeholder image (gradient) */
+  .img-placeholder {
+    @apply relative overflow-hidden;
+  }
+  .img-placeholder::after {
+    content: '';
+    @apply absolute inset-0;
+    background: linear-gradient(135deg, rgba(139,115,85,0.08) 0%, rgba(139,115,85,0.03) 100%);
+  }
+
+  /* Photo caption */
+  .caption {
+    @apply text-sm text-text-secondary mt-2 font-body italic;
+  }
+}
+
+@layer utilities {
+  /* Noise texture overlay */
+  .noise-overlay {
+    position: relative;
+  }
+  .noise-overlay::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    opacity: 0.035;
+    pointer-events: none;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-size: 256px 256px;
+    z-index: 1;
+  }
+
+  /* Gradient mask for images */
+  .mask-fade-bottom {
+    -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+  }
+
+  .mask-fade-top {
+    -webkit-mask-image: linear-gradient(to top, black 60%, transparent 100%);
+    mask-image: linear-gradient(to top, black 60%, transparent 100%);
+  }
+}
+
+/* Lenis smooth scroll */
+html.lenis, html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* Progress bar */
+.progress-bar {
+  transform-origin: left;
+  will-change: transform;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Leaflet map overrides */
+.leaflet-container {
+  font-family: inherit !important;
+  border-radius: 0.5rem;
+}
+.leaflet-popup-content-wrapper {
+  @apply font-body rounded-lg shadow-lg;
+}
+.leaflet-popup-content {
+  @apply text-sm leading-relaxed m-3;
+}
