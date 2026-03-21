@@ -1,7 +1,6 @@
 'use client'
 
 import { useRef } from 'react'
-import Image from 'next/image'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
@@ -71,17 +70,16 @@ export default function HeroSection() {
       ref={sectionRef}
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
-      {/* Background — placeholder gradient (replace with photo) */}
+      {/* Background — GIF map */}
       <div
         ref={bgRef}
         className="absolute inset-0 -top-[10%] -bottom-[10%]"
       >
-        <Image
-          src="/tandil-prueba.jpg"
-          alt="Tandil"
-          fill
-          className="object-cover"
-          priority
+        <img
+          src="/mapas_2%20(1).gif"
+          alt=""
+          aria-hidden="true"
+          className="w-full h-full object-cover"
         />
       </div>
 

@@ -42,7 +42,7 @@ export default function StoriesSection() {
           </h2>
         </FadeIn>
 
-        <div className="space-y-20 md:space-y-28 max-w-4xl mx-auto">
+        <div className="space-y-20 md:space-y-28 max-w-3xl mx-auto">
           {profiles.map((profile, i) => (
             <FadeIn key={i} y={60}>
               <article className="relative">

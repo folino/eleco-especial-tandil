@@ -1,6 +1,6 @@
 'use client'
 
-import { useRef } from 'react'
+import { useRef, useState, useEffect } from 'react'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
@@ -21,10 +21,24 @@ const timelineEvents = [
   { year: '2022', title: 'El Tandil de hoy', text: 'El Censo registra 150.162 habitantes, un crecimiento del 20,5% respecto de 2010. Los usuarios de energía eléctrica llegan a 69.118.', accent: true },
 ]
 
+const mapItems = [
+  { src: '/mapa_1.jpg', label: 'Mapa 1' },
+  { src: '/mapa_2.jpg', label: 'Mapa 2' },
+  { src: '/mapa_3.jpg', label: 'Mapa 3' },
+]
+
 export default function TimelineSection() {
   const sectionRef = useRef<HTMLElement>(null)
   const lineRef = useRef<HTMLDivElement>(null)
   const timelineContainerRef = useRef<HTMLDivElement>(null)
+  const [lightbox, setLightbox] = useState<string | null>(null)
+
+  useEffect(() => {
+    if (!lightbox) return
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setLightbox(null) }
+    document.addEventListener('keydown', onKey)
+    return () => document.removeEventListener('keydown', onKey)
+  }, [lightbox])
 
   useGSAP(() => {
     if (!sectionRef.current || !lineRef.current) return
@@ -164,6 +178,77 @@ export default function TimelineSection() {
             ))}
           </div>
         </div>
+
+        {/* Maps */}
+        <div className="mt-16 md:mt-20">
+          <FadeIn>
+            <figure className="mb-8">
+              <button
+                onClick={() => setLightbox('/mapas_2%20(1).gif')}
+                className="block w-full max-w-2xl mx-auto group relative cursor-zoom-in"
+                aria-label="Ampliar mapa animado"
+              >
+                <img
+                  src="/mapas_2%20(1).gif"
+                  alt="Expansión urbana de Tandil"
+                  className="w-full rounded-sm transition-opacity group-hover:opacity-90"
+                />
+                <span className="absolute bottom-2 right-2 bg-black/50 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
+                  Ampliar
+                </span>
+              </button>
+              <figcaption className="text-center text-xs text-text-secondary font-body mt-3 tracking-wide">
+                Crecimiento urbano de Tandil — evolución territorial
+              </figcaption>
+            </figure>
+          </FadeIn>
+
+          <FadeIn delay={0.1}>
+            <div className="grid grid-cols-3 gap-3 md:gap-4 max-w-2xl mx-auto">
+              {mapItems.map(({ src, label }) => (
+                <figure key={src}>
+                  <button
+                    onClick={() => setLightbox(src)}
+                    className="block w-full group relative cursor-zoom-in"
+                    aria-label={`Ampliar ${label}`}
+                  >
+                    <img
+                      src={src}
+                      alt={label}
+                      className="w-full rounded-sm transition-opacity group-hover:opacity-90"
+                    />
+                    <span className="absolute bottom-1 right-1 bg-black/50 text-white text-xs px-1.5 py-0.5 rounded opacity-0 group-hover:opacity-100 transition-opacity">
+                      Ampliar
+                    </span>
+                  </button>
+                </figure>
+              ))}
+            </div>
+          </FadeIn>
+        </div>
+
+        {/* Lightbox */}
+        {lightbox && (
+          <div
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm"
+            onClick={() => setLightbox(null)}
+          >
+            <div className="relative max-w-5xl max-h-[90vh] w-full px-4" onClick={e => e.stopPropagation()}>
+              <button
+                onClick={() => setLightbox(null)}
+                className="absolute -top-10 right-4 text-white/80 hover:text-white text-sm tracking-widest uppercase"
+                aria-label="Cerrar"
+              >
+                Cerrar ✕
+              </button>
+              <img
+                src={lightbox}
+                alt="Vista ampliada"
+                className="w-full max-h-[85vh] object-contain rounded-sm"
+              />
+            </div>
+          </div>
+        )}
 
         {/* Post-timeline narrative */}
         <div className="prose-editorial !mt-14 md:!mt-20">
