@@ -76,7 +76,7 @@ export default function HeroSection() {
         className="absolute inset-0 -top-[10%] -bottom-[10%]"
       >
         <img
-          src="/mapas_2%20(1).gif"
+          src="/hero.jpg"
           alt=""
           aria-hidden="true"
           className="w-full h-full object-cover"
