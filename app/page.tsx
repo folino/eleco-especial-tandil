@@ -9,6 +9,7 @@ import StoriesSection from '@/components/sections/StoriesSection'
 import ComparisonSection from '@/components/sections/ComparisonSection'
 import Footer from '@/components/layout/Footer'
 import SectionNav from '@/components/layout/SectionNav'
+import PinpointBlock from '@/components/sections/PinpointBlock'
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <div id="bisagra"><PivotSection /></div>
       <div id="historias"><StoriesSection /></div>
       <div id="comparacion"><ComparisonSection /></div>
+      <PinpointBlock />
       <Footer />
     </>
   )
