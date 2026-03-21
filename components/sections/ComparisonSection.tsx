@@ -119,13 +119,13 @@ export default function ComparisonSection() {
         <div className="max-w-prose-wide mx-auto">
           <FadeIn>
             <p className="text-body-lg text-text-primary leading-relaxed mb-6">
-              A más de diez mil kilómetros de distancia, Tandil y Aubenas comparten rasgos
-              estructurales sorprendentes que van mucho más allá de la coincidencia geográfica.
-              Según el estudio de Marcela Petrantonio, de la Secretaría de Desarrollo Productivo
-              y Relaciones Internacionales de Tandil, junto a los investigadores Laurence Barthe,
-              François Taulelle y M. Amalia Lorda, ambas ciudades se desarrollaron en estrecha
-              relación con territorios rurales y agropecuarios, consolidando identidades urbanas
-              marcadas por el paisaje serrano.
+              A más de diez mil kilómetros de distancia, Tandil y Aubenas, una localidad del
+              sureste francés, comparten rasgos estructurales sorprendentes que van mucho más
+              allá de la coincidencia geográfica. Según el estudio de Marcela Petrantonio, de
+              la Secretaría de Desarrollo Productivo y Relaciones Internacionales de Tandil,
+              junto a los investigadores Laurence Barthe, François Taulelle y M. Amalia Lorda,
+              ambas ciudades se desarrollaron en estrecha relación con territorios rurales y
+              agropecuarios, consolidando identidades urbanas marcadas por el paisaje serrano.
             </p>
           </FadeIn>
 
@@ -133,26 +133,22 @@ export default function ComparisonSection() {
             <p className="text-body-lg text-text-primary leading-relaxed mb-6">
               La presencia de las sierras no es solo un dato paisajístico. Condiciona la expansión
               de la mancha urbana, los usos sociales del territorio y la construcción de una
-              identidad colectiva que es, a la vez, local y global. Tanto en Argentina como en
-              Francia, estos centros han construido estrategias para posicionarse como lugares
-              atractivos para residir, emprender y desarrollar actividades vinculadas al
-              conocimiento, el turismo y la producción local. El paisaje, la escala humana y la
-              calidad ambiental aparecen en ambos casos como factores que inciden en las
-              decisiones de radicación y en la construcción de nuevas identidades territoriales.
+              identidad colectiva que es, a la vez, local y global.
             </p>
           </FadeIn>
 
           <FadeIn delay={0.15}>
             <p className="text-body-lg text-text-primary leading-relaxed mb-6">
-              Ambas ciudades funcionan, según el estudio, como nodos que organizan dinámicas
-              territoriales más amplias en contextos nacionales diferentes.
-            </p>
-          </FadeIn>
-
-          <FadeIn delay={0.2}>
-            <p className="text-body-lg text-text-secondary leading-relaxed italic">
-              Lo que ocurre en Tandil no es un fenómeno aislado sino parte de una tendencia que
-              está redefiniendo la geografía del desarrollo a escala global.
+              Tanto en Argentina como en Francia, señala la investigación, estos centros han
+              construido estrategias para posicionarse como lugares atractivos para residir,
+              emprender y desarrollar actividades vinculadas al conocimiento, el turismo y la
+              producción local. El paisaje, la escala humana y la calidad ambiental aparecen en
+              ambos casos como factores que inciden en las decisiones de radicación y en la
+              construcción de nuevas identidades territoriales. Ambas ciudades funcionan, según
+              el estudio, como nodos que organizan dinámicas territoriales más amplias en
+              contextos nacionales diferentes. Lo que ocurre en Tandil no es un fenómeno aislado
+              sino parte de una tendencia que está redefiniendo la geografía del desarrollo a
+              escala global.
             </p>
           </FadeIn>
         </div>

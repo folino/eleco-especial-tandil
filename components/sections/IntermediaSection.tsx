@@ -54,40 +54,28 @@ export default function IntermediaSection() {
             Contexto
           </p>
           <h2 className="font-display text-section-title text-text-primary mb-8">
-            Qué es una ciudad intermedia y por qué importa
+            Qué es y por qué importa una ciudad intermedia
           </h2>
         </FadeIn>
 
         <FadeIn delay={0.1}>
           <p>
-            Antes de adentrarse en la historia particular de Tandil, vale detenerse en el
-            concepto que estructura toda esta discusión. Las ciudades intermedias no son
-            simplemente ciudades de tamaño medio. Son algo más específico, más funcional, más
-            estratégico en términos de desarrollo territorial. Son el tejido conectivo del
-            territorio nacional, ese entramado invisible que une la gran metrópolis con el
-            pequeño pueblo rural y que, durante décadas, recibió menos atención académica y
-            política de la que merecía.
+            Las ciudades intermedias no son simplemente ciudades de tamaño medio. Son el tejido
+            conectivo del territorio nacional, ese entramado que une la gran metrópolis con el
+            pequeño pueblo rural y que, durante décadas, recibió menos atención de la que
+            merecía.
           </p>
         </FadeIn>
 
         <FadeIn delay={0.15}>
           <p>
-            Estas urbes reúnen en general entre 20.000 y 200.000 habitantes, un rango que les
-            permite ofrecer servicios y oportunidades sin perder la cercanía en la vida
-            cotidiana. Pero más allá de su dimensión demográfica, su rasgo definitorio es el
-            rol que cumplen en la organización del territorio. Funcionan como centros
-            regionales que concentran salud, educación, comercio y administración, articulando
-            la relación entre las zonas rurales y los grandes centros urbanos.
-          </p>
-        </FadeIn>
-
-        <FadeIn delay={0.2}>
-          <p>
-            Son ciudades donde todavía es posible conocer al vecino, caminar al trabajo,
-            llevar a los chicos al colegio en bicicleta y al mismo tiempo acceder a una oferta
-            cultural, educativa y gastronómica que hace décadas era exclusiva de las grandes
-            metrópolis. Esa combinación de escala humana y diversidad de servicios es
-            exactamente lo que define su atractivo en el mundo contemporáneo.
+            Reúnen en general entre 20.000 y 200.000 habitantes, un rango que les permite
+            ofrecer servicios y oportunidades sin perder la cercanía de la vida cotidiana.
+            Funcionan como centros regionales que concentran salud, educación, comercio y
+            administración, articulando zonas rurales y grandes urbes. Son ciudades donde
+            todavía es posible caminar al trabajo o llevar a los chicos al colegio en bicicleta,
+            y al mismo tiempo acceder a una oferta cultural y educativa que antes era exclusiva
+            de las metrópolis.
           </p>
         </FadeIn>
       </div>
@@ -140,38 +128,14 @@ export default function IntermediaSection() {
       <div className="prose-editorial">
         <FadeIn>
           <p>
-            Un análisis de Ana Fehrmann para la Fundación Civilidad aporta perspectiva sobre
-            el peso real de estas ciudades en el mapa argentino. Del total de 3.392 localidades
-            del país según el Censo 2010, solo 40 superan los 200.000 habitantes y concentran
-            algo más del 55 por ciento de la población nacional. En el otro extremo, 3.278
-            localidades tienen menos de 20.000 habitantes y reúnen menos del 20 por ciento
-            de la población. Entre ambos extremos se ubican exactamente 198 localidades que
-            responden al perfil de ciudades intermedias, donde vive casi el 30 por ciento de
-            los argentinos.
-          </p>
-        </FadeIn>
-
-        <FadeIn delay={0.1}>
-          <p>
-            Su potencial estratégico es enorme. Los costos de infraestructura en este tipo de
-            ciudades pueden ser hasta un 50 por ciento menores que en grandes aglomeraciones
-            o en pequeños núcleos urbanos aislados, lo que las posiciona como actores clave
-            para promover un sistema urbano más equilibrado en términos de distribución de
-            población y oportunidades.
-          </p>
-        </FadeIn>
-
-        <FadeIn delay={0.15}>
-          <p>
-            El perfil económico de estas ciudades es otro elemento que las distingue. En ellas
-            conviven actividades productivas tradicionales con nuevas formas de desarrollo
-            vinculadas al turismo, la educación superior, los servicios y el conocimiento.
-            Esa combinación impulsa procesos de crecimiento sostenido y diversificado que las
-            hace más resilientes frente a las crisis que suelen devastar a economías locales
-            monoproductoras. Además, su escala urbana favorece la proximidad y el vínculo con
-            el entorno natural, junto con procesos de expansión y planificación que las
-            convierten en actores estratégicos para equilibrar la distribución de oportunidades
-            en el territorio.
+            En Argentina no existe una clasificación oficial única, pero a partir del
+            procesamiento de los datos del Censo 2022 del INDEC es posible estimar que el país
+            cuenta con alrededor de 92 centros urbanos de este tipo. Su perfil económico las
+            distingue: en ellas conviven actividades productivas tradicionales con el turismo,
+            la educación superior y los servicios vinculados al conocimiento. Esa combinación
+            impulsa un crecimiento diversificado que las hace más resilientes frente a las
+            crisis que suelen devastar a economías monoproductoras, y las convierte en actores
+            estratégicos para equilibrar la distribución de oportunidades en el territorio.
           </p>
         </FadeIn>
       </div>

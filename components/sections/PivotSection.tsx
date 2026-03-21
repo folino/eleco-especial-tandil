@@ -12,7 +12,7 @@ const conclusions = [
   {
     number: '01',
     title: 'Infraestructura desfasada',
-    text: 'El crecimiento demográfico y constructivo no fue acompañado por infraestructura al mismo ritmo. La planta de efluentes saturada antes de tiempo y la red cloacal ajustada indican que la planificación quedó desfasada frente a la expansión urbana.',
+    text: 'El crecimiento demográfico y constructivo no fue acompañado por infraestructura al mismo ritmo. La planta de efluentes saturada antes de tiempo y la red cloacal ajustada indican que la planificación quedó desfasada frente a la expansión urbana, aunque en los últimos años se ha notado un necesario avance.',
     accent: 'border-accent-alert/30',
     numberColor: 'text-accent-alert',
   },
@@ -87,34 +87,35 @@ export default function PivotSection() {
         <div className="prose-editorial !mb-14 md:!mb-20">
           <FadeIn>
             <p>
-              Tandil está en un momento bisagra. Esa expresión, usada por los propios analistas
-              que estudian la ciudad, captura con precisión la naturaleza del instante que
-              atraviesa. Su escala todavía permite planificar con anticipación, pero la velocidad
-              del crecimiento la está empujando hacia un punto de no retorno.
+              Hoy es un momento bisagra. La expresión, usada por los propios analistas que
+              estudian la ciudad, captura con precisión la naturaleza del instante que atraviesa.
+              Su escala todavía permite planificar con anticipación, pero la velocidad del
+              crecimiento la está empujando hacia un punto de no retorno. La ciudad todavía está
+              a tiempo de elegir un modelo claro. Compacto o disperso, integrado o fragmentado,
+              con acceso público real a su patrimonio natural o con creciente privatización del
+              paisaje serrano que, siendo el principal activo ambiental e identitario de la
+              ciudad, es mayoritariamente de propiedad privada y cuenta con escaso acceso público
+              formal. Las sierras son exactamente lo que define a Tandil ante el mundo, y son
+              exactamente el recurso al que amplios sectores de la propia población local no
+              tienen garantizado el acceso.
             </p>
           </FadeIn>
 
           <FadeIn delay={0.1}>
             <p>
-              Las sierras son exactamente lo que define a Tandil ante el mundo, y son exactamente
-              el recurso al que amplios sectores de la propia población local no tienen garantizado
-              el acceso. Son mayoritariamente de propiedad privada y cuentan con escaso acceso
-              público formal. Los mismos activos que atrajeron a Luli y Matt desde Colorado y a
-              Delfina y Mariano desde Belgrano son los que están en tensión permanente con la
-              lógica del mercado inmobiliario.
+              En mayo de 2023 el Municipio publicó el informe Localización de la Agenda 2030 en
+              el Partido de Tandil, que analiza cómo se integran los Objetivos de Desarrollo
+              Sostenible en las políticas públicas locales. Entre los ejes aparecen la reducción
+              de emisiones, el impulso de energías renovables, la gestión de residuos y la
+              movilidad sustentable, con foco en la participación en redes internacionales como
+              Mercociudades para fortalecer estrategias de desarrollo.
             </p>
           </FadeIn>
 
           <FadeIn delay={0.15}>
             <p>
-              En mayo de 2023 el Municipio publicó el informe de localización de la Agenda 2030
-              en el Partido de Tandil, que analiza cómo se integran los Objetivos de Desarrollo
-              Sostenible de las Naciones Unidas en las políticas públicas locales. El documento
-              plantea que Tandil, como muchas ciudades intermedias, enfrenta un escenario global
-              atravesado por crisis ambientales, económicas, sanitarias y humanitarias. Entre los
-              ejes planteados aparece la transformación ambiental, con metas vinculadas a la
-              reducción de emisiones de carbono, el impulso de energías renovables, la gestión
-              integral de residuos y la promoción de sistemas de movilidad urbana más sostenibles.
+              Del cruce de todos los datos se desprenden tres conclusiones estructurales que
+              ningún actor local puede ignorar.
             </p>
           </FadeIn>
         </div>
@@ -148,19 +149,27 @@ export default function PivotSection() {
             </p>
             <p className="text-body-lg text-text-primary leading-relaxed">
               El CONICET ubica a Tandil entre las ciudades intermedias con mejores niveles de
-              calidad de vida de Argentina. Su posición geográfica estratégica, su bajo nivel
-              relativo de conflictividad social, sus elevados niveles de participación ciudadana,
-              su alto grado de articulación institucional y su creciente impulso emprendedor
-              permiten un desarrollo económico y social armónico que la convirtió en referente
-              regional y nacional. Son datos que la ciudad puede exhibir con legítimo orgullo.
+              calidad de vida de Argentina. En el informe "Calidad de vida en Argentina. Ranking
+              del bienestar por departamentos". Ushuaia, Bariloche, Tandil y Carlos Paz son las
+              mejores posicionadas por poseer como denominador común actividades económicas
+              dinámicas, en muchos casos diversificadas.
+            </p>
+            <p className="mt-4 text-body-lg text-text-secondary leading-relaxed">
+              Su posición geográfica estratégica, su bajo nivel relativo de conflictividad
+              social, sus elevados niveles de participación ciudadana, su alto grado de
+              articulación institucional y su creciente impulso emprendedor permiten un
+              desarrollo económico y social armónico que la convirtió en referente regional y
+              nacional. Son datos que la ciudad puede exhibir con legítimo orgullo.
             </p>
             <p className="mt-4 text-body-lg text-text-secondary leading-relaxed">
               Pero ese capital puede erosionarse si el crecimiento no se acompaña de
               planificación que garantice acceso equitativo a los bienes que hacen tan atractiva
-              a esta ciudad. Las sierras, el aire limpio, la escala humana, la tranquilidad —
-              son exactamente los activos que están en tensión. Si no hay planificación
-              estratégica, el crecimiento continuará, pero consolidando desigualdades
-              territoriales y tensionando la infraestructura existente.
+              a esta ciudad. Las sierras, el aire limpio, la escala humana, la tranquilidad. Esos
+              activos trajeron a Luli y Matt desde Colorado y a Delfina y Mariano desde Belgrano,
+              y a muchos nuevos residentes más. Son los mismos activos que atraen inversiones y
+              turistas semana a semana. Y son exactamente los activos que están en tensión. Si no
+              hay planificación estratégica, el crecimiento continuará, pero consolidando
+              desigualdades territoriales y tensionando la infraestructura existente.
             </p>
           </div>
         </FadeIn>

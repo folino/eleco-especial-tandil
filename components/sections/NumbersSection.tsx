@@ -21,11 +21,13 @@ export default function NumbersSection() {
           <FadeIn>
             <p>
               El Censo 2022 registró 150.162 habitantes en Tandil, un 20,5 por ciento más que
-              en 2010, por encima del promedio nacional para ese período. El economista Sebastián
-              Auguste lo traduce en términos concretos y cotidianos: con esos números, el municipio
-              tiene por día 5,8 personas nuevas para atender, lo que requiere al menos dos casas
-              por día. Esa demanda constante y sostenida explica buena parte de la presión que el
-              mercado inmobiliario local viene experimentando desde hace más de una década.
+              en 2010, por encima del promedio nacional para ese período. Con esos números, el
+              municipio tiene por día 5,8 personas nuevas para atender, lo que requiere al menos
+              dos casas por día. Esa demanda constante y sostenida explica buena parte de la
+              presión que el mercado inmobiliario local viene experimentando desde hace más de
+              una década y que hoy se expresa en alquileres récord, escasez de oferta y un
+              parque habitacional que crece pero no alcanza a cubrir las necesidades de una
+              población que sigue llegando semana a semana.
             </p>
           </FadeIn>
         </div>
@@ -68,27 +70,6 @@ export default function NumbersSection() {
               generalizada y consistente entre comerciantes, inmobiliarias, directivos de
               colegios y vecinos de que la pandemia aceleró un proceso que ya venía en marcha
               y que los números de los próximos años serán aún más llamativos.
-            </p>
-          </FadeIn>
-
-          <FadeIn delay={0.1}>
-            <p>
-              Miles de trabajadores descubrieron que podían hacer su trabajo desde cualquier
-              lugar con conexión a internet. Para muchos de ellos, ese lugar pasó a ser una
-              casa con jardín en Tandil, con las sierras a diez minutos y con una calidad de
-              vida que la Capital Federal difícilmente puede ofrecer a precios similares.
-            </p>
-          </FadeIn>
-
-          <FadeIn delay={0.15}>
-            <p>
-              Los colegios de la ciudad vienen registrando incrementos de matrícula que exceden
-              los proyectados. Los comercios del centro reportan un movimiento que no tiene
-              precedentes en períodos fuera de temporada turística. Las inmobiliarias señalan
-              que la demanda de propiedades para alquiler y compra supera con creces a la oferta
-              disponible. Y los vecinos de barrios que hace diez años eran periféricos y
-              silenciosos se encontraron de repente en medio de una ciudad que no para de
-              densificarse a su alrededor.
             </p>
           </FadeIn>
         </div>

@@ -114,13 +114,16 @@ export default function TimelineSection() {
 
           <FadeIn delay={0.1}>
             <p>
-              La crisis de 2001 operó, paradójicamente, como catalizador. Desde 2002 se verificó
-              un ingreso sostenido de inversiones y nuevos residentes, fenómeno que reforzó la
-              expansión inmobiliaria y la presión sobre el suelo. En 2003 asumió como intendente
-              Miguel Ángel Lunghi, dando inicio a una etapa de continuidad política que atravesaría
-              buena parte del período analizado y que facilitaría la implementación de una estrategia
-              de desarrollo de largo plazo que combinó inversión en infraestructura, posicionamiento
-              turístico y atracción de actividades económicas de mayor valor agregado.
+              La crisis de 2001 operó, paradójicamente, como catalizador. Ese año el Censo
+              registró 108.109 habitantes y durante la década siguiente el crecimiento
+              habitacional superó al poblacional, que fue del 14,6 por ciento entre 2001 y
+              2010. Desde 2002 se verificó un ingreso sostenido de inversiones y nuevos
+              residentes, fenómeno que reforzó la expansión inmobiliaria y la presión sobre el
+              suelo. En 2003 asumió como intendente Miguel Ángel Lunghi, dando inicio a una
+              etapa de continuidad política que atravesaría buena parte del período analizado y
+              que facilitaría la implementación de una estrategia de desarrollo de largo plazo
+              que combinó inversión en infraestructura, posicionamiento turístico y atracción de
+              actividades económicas de mayor valor agregado.
             </p>
           </FadeIn>
         </div>
@@ -256,22 +259,23 @@ export default function TimelineSection() {
             <p>
               El reposicionamiento estratégico fue el rasgo más visible de esos años. En 2004
               se lanzó la estrategia de internacionalización y comenzó a implementarse el Plan
-              Federal de Construcción de Viviendas. En 2010 las sierras fueron declaradas Paisaje
-              Protegido por la Ley provincial 14.126, que prohibió la actividad de canteras. Ese
-              mismo año el crecimiento urbano avanzaba con fuerza hacia el sur y sudeste. La
-              protección ambiental y la expansión inmobiliaria comenzaron a convivir en una
-              relación tensa que aún hoy no se ha resuelto.
+              Federal de Construcción de Viviendas. Al año siguiente se creó el Instituto Mixto
+              de Turismo y se estableció el Plan de Desarrollo y Ordenamiento Territorial.
+              Posteriormente Tandil se integró a la red Mercociudades, que agrupa a municipios
+              de América del Sur en torno a agendas de cooperación y desarrollo regional, y
+              entre 2020 y 2021 llegaría a ejercer la Presidencia de esa red. La ciudad
+              construyó un relato y una política pública en torno a su identidad que hoy es
+              reconocida en toda la Argentina.
             </p>
           </FadeIn>
 
           <FadeIn delay={0.1}>
             <p>
-              La articulación entre economía del conocimiento, producción local e inserción
-              internacional fue delineando un nuevo horizonte para una ciudad que a mediados del
-              siglo pasado miraba el mundo desde la producción de granos y ganado. La agenda
-              ambiental y energética fue ganando centralidad en paralelo. Entre 2017 y 2022 la
-              cantidad de usuarios de energía eléctrica pasó de 62.372 a 69.118, un indicador
-              indirecto y elocuente del crecimiento sostenido que no para.
+              En 2010 el Censo registró 123.871 habitantes y las sierras fueron declaradas
+              Paisaje Protegido por la Ley provincial 14.126, que prohibió la actividad de
+              canteras. Ese mismo año el crecimiento urbano avanzaba con fuerza hacia el sur y
+              sudeste. La protección ambiental y la expansión inmobiliaria comenzaron a convivir
+              en una relación tensa que aún hoy no se ha resuelto.
             </p>
           </FadeIn>
         </div>
@@ -288,32 +292,45 @@ export default function TimelineSection() {
             <p>
               Para el economista Sebastián Auguste, investigador y docente universitario
               especializado en desarrollo y dinámica económica local, el proceso tiene una
-              característica que lo distingue de otros casos similares en el país. Mientras otras
-              ciudades vivían crisis productivas devastadoras o perdían población ante la falta de
-              oportunidades, esta comunidad fue construyendo una nueva economía sobre los cimientos
-              de la anterior. Hoy, señala Auguste, la ciudad se apoya en una economía moderna
-              basada en servicios, conocimiento y creatividad, integrada al mundo y organizada en
-              clusters. A la par del polo tecnológico y universitario, mantienen peso el turismo
-              y el agro, con potencial en segmentos de mayor valor agregado.
+              característica que lo distingue de otros casos similares en el país. «Tandil logró
+              en las últimas tres décadas el cambio estructural de forma no traumática», sostuvo,
+              asegurando que esta comunidad fue construyendo una nueva economía sobre los
+              cimientos de la anterior, sin abandonar lo que funcionaba y agregando capas de
+              complejidad que hoy le dan una solidez singular. Hoy, señala Auguste, la ciudad se
+              apoya en una economía moderna basada en servicios, conocimiento y creatividad,
+              integrada al mundo y organizada en clusters.
             </p>
           </FadeIn>
 
           <FadeIn delay={0.1}>
             <p>
-              La UNICEN, universidad pública creada en 1974 con tres sedes regionales y con Tandil
-              como sede central, es el motor silencioso de esa transformación. Su oferta académica
-              abarca las facultades de Agronomía, Arte, Derecho, Económicas, Exactas, Humanas,
-              Ingeniería, Salud, Sociales y Veterinaria. A ella se suma el Clúster Tecnológico
-              como asociación empresarial y el ecosistema emprendedor local, conformando los
-              actores fundamentales para el posicionamiento de Tandil como ciudad del conocimiento.
+              A la par del polo tecnológico y universitario, mantienen peso el turismo y el agro,
+              con potencial en segmentos de mayor valor agregado. Tandil ya está en una senda muy
+              saludable, asegura, aunque advierte que el desafío es sostener infraestructura,
+              talento y calidad de vida para no cometer errores en una etapa clave de su
+              desarrollo.
             </p>
           </FadeIn>
 
           <FadeIn delay={0.15}>
             <p>
-              Tandil ya está en una senda muy saludable, asegura Auguste, aunque advierte que el
-              desafío es sostener infraestructura, talento y calidad de vida para no cometer
-              errores en una etapa clave de su desarrollo.
+              Por su parte, la UNICEN, universidad pública creada en 1974 con tres sedes
+              regionales y con Tandil como sede central, es el motor silencioso de esa
+              transformación. A ella se suma el Clúster Tecnológico como asociación empresarial
+              y el ecosistema emprendedor local, conformando los actores fundamentales para el
+              posicionamiento como ciudad del conocimiento.
+            </p>
+          </FadeIn>
+
+          <FadeIn delay={0.2}>
+            <p>
+              La agenda ambiental y energética fue ganando centralidad en paralelo. Desde 2014
+              se inició el recambio del alumbrado público a LED, en 2016 se lanzó el Plan Crece
+              con paneles solares en jardines de infantes, en 2019 se creó USICOM Energías
+              Renovables mediante ordenanza municipal, en 2020 se anunció Comunidad Solar I y en
+              2022 se inauguró la Estación Transformadora Tandil II. Entre 2017 y 2022 la
+              cantidad de usuarios de energía eléctrica pasó de 62.372 a 69.118, un indicador
+              indirecto y elocuente del crecimiento sostenido que no para.
             </p>
           </FadeIn>
         </div>
