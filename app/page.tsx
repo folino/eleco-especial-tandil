@@ -1,31 +1,19 @@
-import HeroSection from '@/components/sections/HeroSection'
-import LeadSection from '@/components/sections/LeadSection'
-import IntermediaSection from '@/components/sections/IntermediaSection'
-import TimelineSection from '@/components/sections/TimelineSection'
-import NumbersSection from '@/components/sections/NumbersSection'
-import TwoFacesSection from '@/components/sections/TwoFacesSection'
-import PivotSection from '@/components/sections/PivotSection'
-import StoriesSection from '@/components/sections/StoriesSection'
-import ComparisonSection from '@/components/sections/ComparisonSection'
-import Footer from '@/components/layout/Footer'
-import SectionNav from '@/components/layout/SectionNav'
-import PinpointBlock from '@/components/sections/PinpointBlock'
+import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
   return (
-    <>
-      <SectionNav />
-      <div id="inicio"><HeroSection /></div>
-      <div id="apertura"><LeadSection /></div>
-      <div id="contexto"><IntermediaSection /></div>
-      <div id="historia"><TimelineSection /></div>
-      <div id="numeros"><NumbersSection /></div>
-      <div id="dos-caras"><TwoFacesSection /></div>
-      <div id="bisagra"><PivotSection /></div>
-      <div id="historias"><StoriesSection /></div>
-      <div id="comparacion"><ComparisonSection /></div>
-      <PinpointBlock />
-      <Footer />
-    </>
+    <main className="min-h-screen flex items-center justify-center bg-cream">
+      <Link href="/tandil-ciudad-intermedia" aria-label="Ir al especial">
+        <Image
+          src="/logo.png"
+          alt="El Eco de Tandil"
+          width={200}
+          height={60}
+          className="h-14 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity"
+          priority
+        />
+      </Link>
+    </main>
   )
 }
