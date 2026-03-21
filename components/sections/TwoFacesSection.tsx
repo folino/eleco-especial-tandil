@@ -149,16 +149,7 @@ export default function TwoFacesSection() {
           </FadeIn>
         </div>
 
-        {/* Interactive Map */}
-        <FadeIn className="mb-14 md:mb-20">
-          <div className="rounded-lg overflow-hidden border border-white/10">
-            <TandilMap />
-          </div>
-          <p className="text-xs text-white/30 mt-3 text-center">
-            La Ruta 226 y las vías del ferrocarril actúan como barreras físicas que fragmentan
-            el tejido urbano y refuerzan las desigualdades territoriales.
-          </p>
-        </FadeIn>
+        
 
         {/* City divided text */}
         <div className="max-w-prose-wide mx-auto">
