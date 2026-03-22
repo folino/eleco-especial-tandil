@@ -15,11 +15,7 @@ export default function Footer() {
             El Eco de Tandil
           </h3>
 
-          <div className="space-y-1 text-sm text-white/50 mb-10">
-            <p>Producción periodística: [nombre periodista]</p>
-            <p>Fotografía: [nombre fotógrafo]</p>
-            <p>Desarrollo: Equipo de Tecnología — Grupo Rotonda</p>
-          </div>
+          
 
           <div className="flex items-center justify-center gap-6 text-white/40">
             <a
