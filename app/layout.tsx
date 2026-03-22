@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Script from 'next/script'
 import './globals.css'
 import { LenisProvider } from '@/components/ui/LenisProvider'
 import Header from '@/components/layout/Header'
@@ -27,8 +28,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <head>
-        <script
+      <body>
+        <Script
+          id="clarity"
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `(function(c,l,a,r,i,t,y){
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -37,8 +40,6 @@ export default function RootLayout({
     })(window, document, "clarity", "script", "vzo26ivjml");`,
           }}
         />
-      </head>
-      <body>
         <LenisProvider>
           <Header />
           <main>{children}</main>
