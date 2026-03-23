@@ -1,0 +1,946 @@
+/* ──────────────────────────────────────────────
+   Ecos de la Memoria — El Eco de Tandil
+   Estilos propios de la página, todos bajo .ecos-page
+   para no colisionar con globals.css
+   ────────────────────────────────────────────── */
+
+/* Fonts propias de este especial.
+   El @import debe ir ANTES de cualquier regla CSS. */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&display=swap');
+
+.ecos-page {
+  --black: #0a0a0a;
+  --white: #f5f0eb;
+  --gray-100: #e8e2db;
+  --gray-200: #d0c9c0;
+  --gray-400: #8a8279;
+  --gray-600: #5a544d;
+  --gray-800: #2a2622;
+  --accent: #8b0000;
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Source Serif 4', Georgia, serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  background: var(--black);
+  color: var(--white);
+  font-family: var(--font-body);
+  line-height: 1.75;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+/* ─── PROGRESS ─── */
+.ecos-page .progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: var(--accent);
+  z-index: 200;
+  transition: width 0.1s linear;
+}
+
+/* ─── NAV ─── */
+.ecos-page .nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.4s, backdrop-filter 0.4s;
+}
+
+.ecos-page .nav.scrolled {
+  background: rgba(10, 10, 10, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.ecos-page .nav-logo {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--white);
+  text-decoration: none;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+
+.ecos-page .nav-logo:hover {
+  opacity: 1;
+}
+
+.ecos-page .nav-label {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gray-400);
+}
+
+/* ─── HERO ─── */
+.ecos-page .hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.ecos-page .hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 20% 80%, rgba(139, 0, 0, 0.08) 0%, transparent 60%),
+    linear-gradient(to top, var(--black) 0%, transparent 40%);
+  z-index: 1;
+}
+
+.ecos-page .hero-bg {
+  position: absolute;
+  inset: 0;
+  background: var(--gray-800);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ecos-page .hero-bg-placeholder {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--gray-600);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: 1px dashed var(--gray-600);
+  padding: 3rem 4rem;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.ecos-page .hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 900px;
+  padding-bottom: 4rem;
+}
+
+.ecos-page .hero-date {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.ecos-page .hero-date::before {
+  content: '';
+  width: 40px;
+  height: 1px;
+  background: var(--accent);
+  flex-shrink: 0;
+}
+
+.ecos-page .hero-title {
+  font-family: var(--font-display);
+  font-size: clamp(2.8rem, 7vw, 5.5rem);
+  font-weight: 900;
+  line-height: 1.05;
+  margin-bottom: 1.5rem;
+  color: var(--white);
+}
+
+.ecos-page .hero-title em {
+  font-style: italic;
+  font-weight: 400;
+  color: var(--gray-200);
+}
+
+.ecos-page .hero-subtitle {
+  font-family: var(--font-body);
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  font-weight: 300;
+  line-height: 1.7;
+  color: var(--gray-200);
+  max-width: 600px;
+}
+
+.ecos-page .hero-scroll {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ecos-page .hero-scroll span {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gray-400);
+  writing-mode: vertical-rl;
+}
+
+.ecos-page .scroll-line {
+  width: 1px;
+  height: 60px;
+  background: linear-gradient(to bottom, var(--gray-400), transparent);
+  animation: ecosScrollPulse 2s ease-in-out infinite;
+}
+
+@keyframes ecosScrollPulse {
+  0%, 100% { opacity: 0.3; transform: scaleY(1); }
+  50%       { opacity: 1;   transform: scaleY(1.2); }
+}
+
+/* ─── STATS BAR ─── */
+.ecos-page .stats-bar {
+  border-top: 1px solid var(--gray-800);
+  border-bottom: 1px solid var(--gray-800);
+  padding: 2.5rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ecos-page .stat {
+  text-align: center;
+}
+
+.ecos-page .stat-number {
+  font-family: var(--font-display);
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: var(--white);
+  line-height: 1;
+  margin-bottom: 0.4rem;
+}
+
+.ecos-page .stat-label {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--gray-400);
+  line-height: 1.5;
+}
+
+/* ─── INTRO ─── */
+.ecos-page .intro {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 6rem 2rem;
+}
+
+.ecos-page .intro p {
+  font-size: 1.15rem;
+  line-height: 1.9;
+  color: var(--gray-200);
+  margin-bottom: 1.5rem;
+}
+
+.ecos-page .intro p:first-of-type::first-letter {
+  font-family: var(--font-display);
+  font-size: 4rem;
+  font-weight: 900;
+  float: left;
+  line-height: 0.8;
+  margin-right: 0.5rem;
+  margin-top: 0.15rem;
+  color: var(--white);
+}
+
+/* ─── DIVIDER ─── */
+.ecos-page .divider {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.ecos-page .divider-line {
+  flex: 1;
+  height: 1px;
+  background: var(--gray-800);
+}
+
+.ecos-page .divider-symbol {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  color: var(--gray-600);
+}
+
+/* ─── TESTIMONY ─── */
+.ecos-page .testimony {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 6rem 2rem;
+}
+
+.ecos-page .testimony-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-bottom: 4rem;
+  align-items: end;
+}
+
+.ecos-page .testimony-chapter {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+
+.ecos-page .testimony-title {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-weight: 900;
+  line-height: 1.1;
+  color: var(--white);
+}
+
+.ecos-page .testimony-title em {
+  font-style: italic;
+  font-weight: 400;
+  display: block;
+  color: var(--gray-200);
+}
+
+.ecos-page .testimony-who {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  color: var(--gray-400);
+  line-height: 1.6;
+  align-self: end;
+  border-left: 1px solid var(--gray-800);
+  padding-left: 1.5rem;
+}
+
+.ecos-page .testimony-who strong {
+  display: block;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--gray-200);
+  letter-spacing: 0;
+  margin-bottom: 0.3rem;
+}
+
+.ecos-page .testimony-body {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+}
+
+/* ─── IMAGES ─── */
+.ecos-page .testimony-image {
+  width: 100%;
+  aspect-ratio: 16/9;
+  background: var(--gray-800);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.ecos-page .testimony-image.portrait {
+  aspect-ratio: 3/4;
+  max-width: 480px;
+}
+
+.ecos-page .testimony-image.wide {
+  aspect-ratio: 21/9;
+}
+
+.ecos-page .ecos-img-ph {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--gray-600);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: 1px dashed var(--gray-600);
+  padding: 1.5rem 2rem;
+  text-align: center;
+  line-height: 1.8;
+}
+
+/* ─── TEXT ─── */
+.ecos-page .testimony-text {
+  max-width: 720px;
+}
+
+.ecos-page .testimony-text p {
+  font-size: 1.05rem;
+  line-height: 1.85;
+  color: var(--gray-200);
+  margin-bottom: 1.3rem;
+}
+
+/* ─── PULL QUOTE ─── */
+.ecos-page .pullquote {
+  margin: 3rem 0;
+  padding: 2.5rem 0;
+  border-top: 1px solid var(--gray-800);
+  border-bottom: 1px solid var(--gray-800);
+  position: relative;
+}
+
+.ecos-page .pullquote::before {
+  content: '\201C';
+  font-family: var(--font-display);
+  font-size: 6rem;
+  color: var(--accent);
+  opacity: 0.3;
+  position: absolute;
+  top: 0.5rem;
+  left: -0.5rem;
+  line-height: 1;
+}
+
+.ecos-page .pullquote blockquote {
+  font-family: var(--font-display);
+  font-size: clamp(1.3rem, 2.5vw, 1.8rem);
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.5;
+  color: var(--white);
+  padding-left: 2rem;
+}
+
+.ecos-page .pullquote cite {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-style: normal;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--gray-400);
+  margin-top: 1rem;
+  padding-left: 2rem;
+}
+
+/* ─── IMAGE DUO ─── */
+.ecos-page .image-duo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 3rem 0;
+}
+
+/* ─── LIGHTBOX TRIGGER ─── */
+.ecos-page .lightbox-trigger {
+  cursor: zoom-in;
+}
+
+/* ─── LIGHTBOX OVERLAY ─── */
+.ecos-page .lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: zoom-out;
+  animation: lb-fade-in 0.2s ease;
+}
+
+@keyframes lb-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.ecos-page .lightbox-img-wrap {
+  position: relative;
+  width: 90vw;
+  height: 85vh;
+  cursor: default;
+}
+
+.ecos-page .lightbox-close {
+  position: fixed;
+  top: 1.25rem;
+  right: 1.5rem;
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+  z-index: 10000;
+}
+
+.ecos-page .lightbox-close:hover {
+  opacity: 1;
+}
+
+/* ─── FULL IMAGE BREAK ─── */
+.ecos-page .full-image-break {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  aspect-ratio: 21/9;
+  background: var(--gray-800);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* ─── COLLAGE BREAK ─── */
+.ecos-page .image-collage {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  height: 480px;
+  display: grid;
+  gap: 3px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.ecos-page .image-collage.left-wide {
+  grid-template-columns: 2fr 1fr;
+}
+
+.ecos-page .image-collage.right-wide {
+  grid-template-columns: 1fr 2fr;
+}
+
+.ecos-page .image-collage-item {
+  position: relative;
+  overflow: hidden;
+  background: var(--gray-800);
+}
+
+.ecos-page .image-collage-item img {
+  transition: transform 0.6s ease;
+}
+
+.ecos-page .image-collage-item:hover img {
+  transform: scale(1.03);
+}
+
+/* ─── VIDEO BREAK ─── */
+.ecos-page .video-break {
+  max-width: 960px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+}
+
+.ecos-page .video-break-label {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+
+.ecos-page .video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  background: var(--gray-800);
+}
+
+.ecos-page .video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* ─── TIMELINE ─── */
+.ecos-page .timeline-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 6rem 2rem;
+}
+
+.ecos-page .timeline-section-title {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 900;
+  line-height: 1.1;
+  color: var(--white);
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.ecos-page .timeline {
+  position: relative;
+  padding-left: 3rem;
+}
+
+.ecos-page .timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: linear-gradient(to bottom, transparent, var(--gray-600), var(--gray-600), transparent);
+}
+
+.ecos-page .timeline-item {
+  position: relative;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid rgba(90, 84, 77, 0.2);
+}
+
+.ecos-page .timeline-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.ecos-page .timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -3rem;
+  top: 0.5rem;
+  width: 7px;
+  height: 7px;
+  background: var(--accent);
+  border-radius: 50%;
+  transform: translateX(-3px);
+}
+
+.ecos-page .timeline-year {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+
+.ecos-page .timeline-title {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 0.8rem;
+}
+
+.ecos-page .timeline-text {
+  font-size: 0.95rem;
+  color: var(--gray-200);
+  line-height: 1.75;
+}
+
+/* ─── CLOSING ─── */
+.ecos-page .closing {
+  padding: 8rem 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.ecos-page .closing::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center bottom, rgba(139, 0, 0, 0.06) 0%, transparent 70%);
+}
+
+.ecos-page .closing-content {
+  position: relative;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.ecos-page .closing-quote {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.5;
+  color: var(--white);
+  margin-bottom: 3rem;
+}
+
+.ecos-page .closing-text {
+  font-size: 1.05rem;
+  line-height: 1.85;
+  color: var(--gray-200);
+}
+
+/* ─── FOOTER ─── */
+.ecos-page .footer {
+  border-top: 1px solid var(--gray-800);
+  padding: 4rem 2rem 3rem;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.ecos-page .footer-statement {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--gray-400);
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto 2rem;
+}
+
+.ecos-page .footer-divider {
+  height: 1px;
+  background: var(--gray-800);
+  margin: 2rem 0;
+}
+
+.ecos-page .footer-cols {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 3rem;
+}
+
+.ecos-page .footer-col-title {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+
+.ecos-page .footer-sources {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.ecos-page .footer-sources li {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.03em;
+  color: var(--gray-600);
+  line-height: 1.5;
+  padding-left: 0.8rem;
+  border-left: 1px solid var(--gray-800);
+}
+
+.ecos-page .footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ecos-page .footer-brand {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  color: var(--gray-500);
+}
+
+.ecos-page .footer-place {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.15em;
+  color: var(--gray-700);
+}
+
+/* ─── SHARE BUTTON ─── */
+.ecos-page .share-btn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 100;
+  width: 48px;
+  height: 48px;
+  background: var(--white);
+  color: var(--black);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  transition: transform 0.3s, opacity 0.3s;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.ecos-page .share-btn.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.ecos-page .share-btn:hover {
+  transform: scale(1.1);
+}
+
+.ecos-page .share-btn.visible:hover {
+  transform: scale(1.1);
+}
+
+/* ─── TOC ─── */
+.ecos-page .toc {
+  position: fixed;
+  right: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 90;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+.ecos-page .toc.visible {
+  opacity: 1;
+}
+
+.ecos-page .toc-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--gray-600);
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+  position: relative;
+}
+
+.ecos-page .toc-dot.active {
+  background: var(--white);
+  transform: scale(1.4);
+}
+
+.ecos-page .toc-dot::after {
+  content: attr(data-label);
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  white-space: nowrap;
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gray-400);
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+
+.ecos-page .toc-dot:hover::after {
+  opacity: 1;
+}
+
+/* ─── FADE IN ─── */
+.ecos-page .fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.ecos-page .fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ─── RESPONSIVE ─── */
+@media (max-width: 768px) {
+  .ecos-page .testimony-header {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .ecos-page .testimony-who {
+    border-left: none;
+    padding-left: 0;
+    border-top: 1px solid var(--gray-800);
+    padding-top: 1rem;
+  }
+
+  .ecos-page .image-duo {
+    grid-template-columns: 1fr;
+  }
+
+  .ecos-page .image-collage,
+  .ecos-page .image-collage.left-wide,
+  .ecos-page .image-collage.right-wide {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+
+  .ecos-page .image-collage-item {
+    aspect-ratio: 4/3;
+  }
+
+  .ecos-page .toc {
+    display: none;
+  }
+
+  .ecos-page .hero-scroll {
+    display: none;
+  }
+
+  .ecos-page .stats-bar {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ecos-page .hero-content {
+    padding-bottom: 2rem;
+  }
+
+  .ecos-page .hero-title {
+    font-size: clamp(2.2rem, 8vw, 3.5rem);
+  }
+
+  .ecos-page .nav {
+    padding: 0.8rem 1.2rem;
+  }
+
+  .ecos-page .footer-cols {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .ecos-page .footer-bottom {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+}

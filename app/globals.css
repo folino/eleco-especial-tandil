@@ -129,6 +129,16 @@ html.lenis, html.lenis body {
   }
 }
 
+/* Ecos de la Memoria — hide root header on this route */
+body.ecos-special > * > header,
+body.ecos-special header {
+  display: none !important;
+}
+
+body.ecos-special {
+  background: #0a0a0a;
+}
+
 /* Leaflet map overrides */
 .leaflet-container {
   font-family: inherit !important;
