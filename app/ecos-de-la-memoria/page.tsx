@@ -337,12 +337,7 @@ export default function EcosDelaMemoria() {
               en las urnas y gobernó la ciudad hasta principios de 2002, cuando renunció por
               problemas de salud.
             </p>
-            <div className="pullquote">
-              <blockquote>
-                Una pregunta resuena y horada el imaginario colectivo: ¿Hasta dónde llegó en Tandil
-                la participación de los distintos sectores civiles y eclesiásticos en la dictadura?
-              </blockquote>
-            </div>
+            <p>Una pregunta resuena y horada el imaginario colectivo: ¿Hasta dónde llegó en Tandil la participación de los distintos sectores civiles y eclesiásticos en la dictadura?</p>
           </div>
         </div>
       </section>
@@ -676,9 +671,7 @@ export default function EcosDelaMemoria() {
             </p>
             <div className="pullquote">
               <blockquote>
-                Era una empresa emblemática, no solo a nivel nacional sino regional. Trabajábamos
-                para todas las automotrices: General Motors, Mercedes-Benz, Renault, Fiat. Era un
-                volumen muy alto de producción.
+                “Cayó el 30 por ciento de la producción de Metalúrgica Tandil por dejar de fabricar piezas para General Motors. Eso para cualquier industria es un golpe muy fuerte”
               </blockquote>
               <cite>Enrique Lalloz</cite>
             </div>
