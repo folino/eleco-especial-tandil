@@ -378,12 +378,6 @@ export default function EcosDelaMemoria() {
             <p>
               Con el paso de los días, comenzaron a aparecer señales perturbadoras. Una de ellas fue la visita de la familia de una excompañera de estudios, que había sido detenida en Benito Juárez sin que se supiera su paradero. Tassara y otros colegas intentaron averiguar qué había sucedido. Lograron entrevistarse con un militar que les confirmó que la joven estaba detenida en Sierra Chica. “La tenemos nosotros”, les dijo y agregó que la joven había sido inteligente en no mencionarlos porque en ninguno de sus papeles aparecían los nombres de los tres profesionales que habían ido a preguntar por ella. Caso contrario, el militar les espetó que debería haberlos llamado para “hablar”. 
             </p>
-            <div className="pullquote">
-              <blockquote>
-                 “Hoy parece impensado, pero se sabía poco”
-              </blockquote>
-              <cite>Roberto Tassara</cite>
-            </div>
             <p>“Nos ratificó en el error de pensar que era todo similar a los golpes anteriores”, señaló. Aún no dimensionaban la magnitud del terrorismo de Estado ni la lógica de las desapariciones. “Hoy parece impensado, pero se sabía poco”, refirió.</p>
             <p>
              Esa misma jornada, atravesado por la incertidumbre, tomó una decisión que le quedó grabada: al regresar a su departamento, reunió revistas, libros y materiales vinculados a la Unión Soviética -que había heredado de su padre comunista y que incluía información sobre ajedrez- y al pensamiento marxista, y los arrojó al incinerador del edificio. Fue un gesto de autoprotección, motivado por el temor a posibles represalias.
@@ -391,15 +385,6 @@ export default function EcosDelaMemoria() {
             <p>
               Como miembro del Consejo Profesional de Ciencias Económicas, fue convocado a formar parte de la Cotac, una comisión civil de asesoramiento al gobierno de facto, integrada por representantes de la Asociación de la Pequeña y Mediana Industria Metalúrgica, la Cámara Comercial e Industrial, la Sociedad Rural, la Asociación de Abogados, el Colegio de Médicos, el Centro Profesional de la Ingeniería, el Círculo de Veterinarios, el Colegio de Escribanos, el Consejo Profesional de Ciencias Económicas y dos miembros de las Fuerzas Armadas.
             </p>
-            <div className="pullquote">
-              <blockquote>
-                Lo que me llevó a tomar esa decisión fue que advertí que, de algún modo, se intentaba
-                reemplazar al Concejo Deliberante: como si ciertos grupos sociales de Tandil
-                pudiéramos definir, al menos en lo económico, el destino de la ciudad. Ante eso,
-                decidí apartarme.
-              </blockquote>
-              <cite>Roberto Tassara</cite>
-            </div>
             <p>
               “En el 76, o quizás en el 77, por ser miembro del Consejo Profesional de Ciencias Económicas, me convocaron a participar de una reunión con representantes de otras instituciones. El objetivo era debatir cuestiones vinculadas con la ordenanza impositiva municipal, es decir, la que fija tasas, contribuciones y demás. Recuerdo haber asistido a una reunión; puede que hayan sido dos, pero no estoy seguro. Después dejé de ir, aunque creo que el espacio continuó funcionando. Lo que me llevó a tomar esa decisión fue que advertí que, de algún modo, se intentaba reemplazar al Concejo Deliberante: como si ciertos grupos sociales de Tandil pudiéramos definir, al menos en lo económico, el destino de la ciudad. Ante eso, decidí apartarme”. La Cotac funcionó por lo menos hasta 1977 y tuvo injerencia en el destino del matadero municipal, que terminó cerrando sus puertas, en tanto se puso en marcha uno privado.
             </p>
@@ -466,12 +451,6 @@ export default function EcosDelaMemoria() {
             <p>
               “Uno tiene lagunas de esos años. Nos cuidábamos mucho. Yo en el 77 tuve a mi hija mayor y me refugié en la vida familiar, en el barrio del hospital donde me crie. Era una forma de protegernos”. En su entorno familiar, el terror también se manifestaba en gestos concretos: “Agarraron muchos de mis libros y los enterraron en la casa de mi abuelo, por si acaso”.
             </p>
-            <div className="pullquote">
-              <blockquote>
-                “Agarraron muchos de mis libros y los enterraron en la casa de mi abuelo, por si acaso”
-              </blockquote>
-              <cite>Alicia Martignoni</cite>
-            </div>
             <p>
               En el ámbito educativo, la dictadura también dejó su marca. Alicia había participado en la elaboración de diseños curriculares en los años previos. “Después vino una depuración. Decían que había ‘ideologías extrañas’. Hasta Piaget era subversivo. Era una situación muy extraña, casi absurda. Lo que más recuerdo, ya hacia fines de los setenta y comienzos de los ochenta, eran esos decretos. Yo trabajaba en el gabinete de una escuela y en ese contexto apareció un decreto del ministro Bruera, que era el ministro de Educación de la dictadura —no recuerdo si era militar o civil—, que prohibía pedir libros en las escuelas. Con el grupo de mujeres que después fundamos la Sala Abierta de Lectura estábamos muy unidas en ese momento y estábamos verdaderamente escandalizadas. Trabajábamos juntas en la Escuela 14, sobre avenida Rivadavia, y ahí mismo armamos una biblioteca, porque esa era nuestra obsesión: que los chicos tuvieran acceso a libros. Una de las cosas que más nos impactaba era que en muchas escuelas había libros de la década del sesenta, completamente desactualizados. Por eso, que nos dijeran que no se podían pedir libros lo vivimos como una afrenta. Recuerdo que Adela Castronovo solía decir que era absurdo que se insistiera con la obligatoriedad del delantal, pero no con algo esencial: ir a la escuela con libros, que es justamente para lo que se va a estudiar", detalló.
             </p>
@@ -484,13 +463,6 @@ export default function EcosDelaMemoria() {
             <p>
               Para ella, la memoria no es solo un ejercicio del pasado, sino una tarea permanente. “Analizando los datos, contando lo que pasó, mucha gente vuelve a pensar. Yo tengo fe en eso”.
             </p>
-            <div className="pullquote">
-              <blockquote>
-                Analizando los datos, contando lo que pasó, mucha gente vuelve a pensar. Yo tengo fe
-                en eso.
-              </blockquote>
-              <cite>Alicia Martignoni</cite>
-            </div>
           </div>
         </div>
       </section>
@@ -530,13 +502,6 @@ export default function EcosDelaMemoria() {
               diario. Decidió permanecer en esa sección para poder seguir escribiendo y opinando,
               algo que en otras áreas estaba vedado.
             </p>
-            <div className="pullquote">
-              <blockquote>
-                Muy rápidamente nos dimos cuenta de que había una censura encubierta y a veces no
-                tan encubierta.
-              </blockquote>
-              <cite>Néstor Dipaola</cite>
-            </div>
             <p>
               Recordó que aquella mañana se encontraba en la universidad y que, en un momento, decidió acercarse al “Bar Ideal”, un espacio de encuentro de la dirigencia política local. “Y bueno, por supuesto, caras largas”, describió. Señaló que entre los presentes había posiciones diversas, incluso algunas favorables al golpe.
             </p>
@@ -625,12 +590,6 @@ export default function EcosDelaMemoria() {
             Aquel día, dijo, lo sorprendió en un contexto que ya anticipaba una ruptura institucional. “Había un clima previo, una percepción de que podía haber algún tipo de interrupción institucional, de golpe de Estado, de un gobierno que estaba como jaqueado”, expresó. En su mirada retrospectiva, insistió en que estos procesos no fueron hechos aislados: “Los golpes de Estado no son producto de un hecho mesiánico, sino que son planificados, pensados, y han tenido adhesión de sectores de la sociedad”.
             </p>
             <p>En relación con Tandil, que por entonces contaba con poco más de 70 mil habitantes, describió una ciudad con un clima particular. “No es que no pasaba nada, pero había una mirada un tanto laxa sobre los temas”, sostuvo. Recordó, por ejemplo, la desaparición de vecinos conocidos como hechos que circulaban en voz baja: “Era todo como un comentario: ‘¿qué pasó?, ¿se lo llevaron?’, pero no había movilizaciones ni manifestaciones”.            </p>
-            <div className="pullquote">
-              <blockquote>
-                No es que no pasaba nada, pero había una mirada un tanto laxa sobre los temas.
-              </blockquote>
-              <cite>Julio Elichiribehety</cite>
-            </div>
             <p>Para Elichiribehety, durante los primeros años de la dictadura predominó una especie de silencio social. “Había como una demanda subterránea, por debajo de la media”, explicó. En ese sentido, coincidió parcialmente con la idea de que en ciudades del interior “parecía que no sucedía nada”, aunque aclaró: “No digo que no pasaba nada, digo que pasaba, pero no había emergentes de sectores movilizándose”. Y también remarcó que los abogados Victorino y Juan Carlos Pugliese (h), Pedersoli y Gutiérrez se animaron a presentar hábeas corpus para conocer el destino de las personas secuestradas.</p>
             <p>El punto de inflexión en su vida política llegó con la recuperación democrática y la figura de Raúl Alfonsín. “A mí me seduce definitivamente Alfonsín. Soy de los que llegan a militar y a afiliarse al radicalismo por su figura”, afirmó. </p>
             <p>Ya en democracia, su participación en organismos de derechos humanos lo llevó a involucrarse en discusiones locales sobre el pasado reciente. En ese marco, también reflexionó sobre la vida política de Tandil y ciertas continuidades. Sobre la figura de Julio Zanatelli, señaló que no tuvo un vínculo directo, aunque sí diferencias ideológicas. Y aportó una mirada crítica sobre la recepción social de dirigentes vinculados al orden autoritario: “Bussi (represor y exgobernador de Tucumán) vino a una asunción en Tandil y no tuvo un repudio fuerte. No digo que pasó desapercibido, pero tampoco hubo un escrache”.</p>
@@ -669,12 +628,6 @@ export default function EcosDelaMemoria() {
             <p>
               En 1974, Enrique Lalloz empezó a consolidar una trayectoria en la industria local. Ingeniero metalúrgico, se desempeñó durante más de 30 años en Metalúrgica Tandil, donde llegó a ser gerente. Su recuerdo de aquellos años no se centra en un hecho puntual, sino en un proceso que, con el tiempo, marcaría un quiebre profundo en la actividad productiva local.
             </p>
-            <div className="pullquote">
-              <blockquote>
-                “Cayó el 30 por ciento de la producción de Metalúrgica Tandil por dejar de fabricar piezas para General Motors. Eso para cualquier industria es un golpe muy fuerte”
-              </blockquote>
-              <cite>Enrique Lalloz</cite>
-            </div>
             <p>“En el año 76 yo ya tenía experiencia en metalúrgica, estaba escalando posiciones. Al ser profesional y tener años de trabajo, uno empieza a tomar contacto con las partes directivas de la empresa”, contó. Desde ese lugar, vivió en primera línea los cambios que comenzaron a desplegarse tras el golpe. “Cuando uno analiza los períodos posteriores a 1976, es otro país, otra industria, otra mentalidad”, planteó. Y fue directo al impacto: “Todo lo que vino después fue realmente lapidario para la actividad industrial y para el país”.</p>
             <p>Lalloz recordó el peso que tenía entonces “Metalúrgica Tandil” en el entramado productivo. “Era una empresa emblemática, no solo a nivel nacional sino regional. Trabajábamos para todas las automotrices: General Motors, Mercedes-Benz, Renault, Fiat. Era un volumen muy alto de producción”, enumeró. Y agregó: “Prácticamente se podía fabricar un motor entero en Tandil”.</p>
             <p>Sin embargo, ese escenario comenzó a cambiar rápidamente. “En el año 78, con la política económica de Martínez de Hoz, empezó una desindustrialización muy fuerte”, afirmó. En ese sentido, cuestionó la apertura de importaciones: “Se abrió la importación masiva e indiscriminada y muchas actividades empezaron a sucumbir”.</p>
@@ -914,25 +867,12 @@ export default function EcosDelaMemoria() {
             <p>
               La historia de Walter Fernández, fundador de Granja Los Pibes, se entrelaza con la de toda una generación marcada por la militancia política, la represión y la violencia de la última dictadura. Su testimonio recorre desde la juventud en Tandil hasta su secuestro, las torturas y la reconstrucción de una vida atravesada por la memoria.
             </p>
-            <div className="pullquote">
-              <blockquote>
-                Poníamos un disco de Arcoíris, de Sui Generis, y hablábamos de política.
-              </blockquote>
-              <cite>Walter Fernández, sobre las reuniones juveniles</cite>
-            </div>
             <p>
               Fernández creció en la zona de 14 de Julio y Constitución, un barrio donde compartía la infancia con amigos que, años más tarde, también quedarían alcanzados por la represión. “Yo digo hoy, era una zona liberada”, afirmó. Allí, entre juegos en la plaza Moreno y la escuela, comenzaron a gestarse las primeras inquietudes políticas.
             </p>
             <p>
               “Poníamos un disco de Arcoíris, de Sui Generis, y hablábamos de política”, recordó sobre aquellas reuniones juveniles, atravesadas por el contexto latinoamericano, la música y los debates de la época. Ese proceso derivó en la militancia en la Unión de Estudiantes Secundarios (UES), vinculada a Montoneros. 
             </p>
-            <div className="pullquote">
-              <blockquote>
-                A esa altura yo ya sabía que al Diente y a Gustavo los habían matado en Bahía
-                Blanca, y que Marocchi había desaparecido en Mar del Plata.
-              </blockquote>
-              <cite>Walter Fernández</cite>
-            </div>
             <p>
               En 1975, en un clima de creciente violencia, la organización decidió el pase a la clandestinidad. Fernández se casó con Mabel, su compañera, y se trasladó a La Plata junto a otros militantes. “Ya no era que ibas a estudiar: éramos combatientes. No éramos boy scouts, queríamos el poder porque queríamos una Argentina que fuera viable”, explicó.
             </p>
