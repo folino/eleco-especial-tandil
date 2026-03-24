@@ -3,11 +3,11 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Ecos de la Memoria en Tandil — El Eco de Tandil',
   description:
-    'A medio siglo del golpe cívico-militar, un recorrido por las heridas, los silencios y las resistencias en una ciudad que también fue escenario del terrorismo de Estado.',
+    'Al cumplirse medio siglo del Golpe Cívico-Militar, un recorrido por las heridas, los silencios y las resistencias en Tandil. A través testimonios de vecinos, sobrevivientes y protagonistas, este especial intenta responder una pregunta ineludible: ¿Cómo se vivió la dictadura en la ciudad?',
   openGraph: {
     title: 'Ecos de la Memoria en Tandil',
     description:
-      'A medio siglo del golpe cívico-militar, un recorrido por las heridas, los silencios y las resistencias en una ciudad que también fue escenario del terrorismo de Estado.',
+      'Al cumplirse medio siglo del Golpe Cívico-Militar, un recorrido por las heridas, los silencios y las resistencias en Tandil. A través testimonios de vecinos, sobrevivientes y protagonistas, este especial intenta responder una pregunta ineludible: ¿Cómo se vivió la dictadura en la ciudad?',
     url: 'https://eleco.com.ar/ecos-de-la-memoria',
     siteName: 'El Eco de Tandil',
     images: [
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Ecos de la Memoria en Tandil',
     description:
-      'A medio siglo del golpe cívico-militar, un recorrido por las heridas, los silencios y las resistencias en Tandil.',
+      'Al cumplirse medio siglo del Golpe Cívico-Militar, un recorrido por las heridas, los silencios y las resistencias en Tandil. A través testimonios de vecinos, sobrevivientes y protagonistas, este especial intenta responder una pregunta ineludible: ¿Cómo se vivió la dictadura en la ciudad?',
     images: ['/ecos-de-la-memoria-tandil/documental_24m.webp'],
   },
   alternates: {
