@@ -67,11 +67,11 @@ export default function EcosDelaMemoria() {
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
-  /* ── Share button visibility ── */
+  /* ── Back to top visibility ── */
   useEffect(() => {
     const btn = document.getElementById('ecos-share')
     const onScroll = () =>
-      btn?.classList.toggle('visible', window.scrollY > 400)
+      btn?.classList.toggle('visible', window.scrollY > 600)
     window.addEventListener('scroll', onScroll, { passive: true })
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
@@ -143,7 +143,25 @@ export default function EcosDelaMemoria() {
       {/* ── Nav ── */}
       <nav className="nav" id="ecos-nav">
         <a href="https://eleco.com.ar" className="nav-logo">El Eco de Tandil</a>
-        <span className="nav-label">Especial · 24 de Marzo</span>
+        <div className="nav-right">
+          <span className="nav-label">Especial · 24 de Marzo</span>
+          <button
+            className="nav-share"
+            onClick={handleShare}
+            aria-label="Compartir"
+            title="Compartir"
+          >
+            {shareOk ? (
+              <span className="nav-share-ok">✓</span>
+            ) : (
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8" />
+                <polyline points="16 6 12 2 8 6" />
+                <line x1="12" y1="2" x2="12" y2="15" />
+              </svg>
+            )}
+          </button>
+        </div>
       </nav>
 
       {/* ── TOC ── */}
@@ -158,23 +176,17 @@ export default function EcosDelaMemoria() {
         ))}
       </div>
 
-      {/* ── Share Button ── */}
+      {/* ── Back to Top ── */}
       <button
-        className="share-btn"
+        className="top-btn"
         id="ecos-share"
-        title="Compartir"
-        onClick={handleShare}
-        aria-label="Compartir"
+        title="Volver al inicio"
+        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+        aria-label="Volver al inicio"
       >
-        {shareOk ? (
-          '✓'
-        ) : (
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8" />
-            <polyline points="16 6 12 2 8 6" />
-            <line x1="12" y1="2" x2="12" y2="15" />
-          </svg>
-        )}
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <polyline points="18 15 12 9 6 15" />
+        </svg>
       </button>
 
       {/* ════════════════════════════════
@@ -192,14 +204,12 @@ export default function EcosDelaMemoria() {
           />
         </div>
         <div className="hero-content">
-          <div className="hero-date">24 de Marzo de 1976 — 50 años</div>
           <h1 className="hero-title">
             Ecos de <em>la Memoria</em>
             <br />en Tandil
           </h1>
           <p className="hero-subtitle">
-            A medio siglo del golpe cívico-militar, un recorrido por las heridas, los silencios y
-            las resistencias en una ciudad que también fue escenario del terrorismo de Estado.
+            A 50 años del 24 de Marzo de 1976
           </p>
         </div>
         <div className="hero-scroll">

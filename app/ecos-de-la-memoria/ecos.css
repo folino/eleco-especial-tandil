@@ -169,7 +169,7 @@
 }
 
 .ecos-page .hero-subtitle {
-  font-family: var(--font-body);
+  font-family: var(--font-display);
   font-size: clamp(1rem, 2vw, 1.25rem);
   font-weight: 300;
   line-height: 1.7;
@@ -779,14 +779,14 @@
   color: var(--gray-700);
 }
 
-/* ─── SHARE BUTTON ─── */
-.ecos-page .share-btn {
+/* ─── BACK TO TOP ─── */
+.ecos-page .top-btn {
   position: fixed;
   bottom: 2rem;
   right: 2rem;
   z-index: 100;
-  width: 48px;
-  height: 48px;
+  width: 44px;
+  height: 44px;
   background: var(--white);
   color: var(--black);
   border: none;
@@ -795,23 +795,52 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.1rem;
   transition: transform 0.3s, opacity 0.3s;
   opacity: 0;
   transform: translateY(20px);
+  pointer-events: none;
 }
 
-.ecos-page .share-btn.visible {
+.ecos-page .top-btn.visible {
   opacity: 1;
   transform: translateY(0);
+  pointer-events: auto;
 }
 
-.ecos-page .share-btn:hover {
-  transform: scale(1.1);
+.ecos-page .top-btn:hover {
+  transform: translateY(-2px);
 }
 
-.ecos-page .share-btn.visible:hover {
-  transform: scale(1.1);
+/* ─── NAV SHARE ─── */
+.ecos-page .nav-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.ecos-page .nav-share {
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: var(--gray-400);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s, border-color 0.2s;
+  flex-shrink: 0;
+}
+
+.ecos-page .nav-share:hover {
+  color: var(--white);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.ecos-page .nav-share-ok {
+  font-size: 0.8rem;
+  color: var(--accent);
 }
 
 /* ─── TOC ─── */
