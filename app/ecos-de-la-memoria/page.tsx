@@ -337,22 +337,7 @@ export default function EcosDelaMemoria() {
         </div>
       </section>
 
-      <div
-        className="full-image-break lightbox-trigger"
-        onClick={() => openLightbox(`${BASE}/desaparecidos_tandil.webp`, 'Desaparecidos de Tandil')}
-        role="button"
-        tabIndex={0}
-        aria-label="Ver imagen ampliada"
-      >
-        <Image
-          src={`${BASE}/desaparecidos_tandil.webp`}
-          alt="Desaparecidos de Tandil"
-          fill
-          style={{ objectFit: 'cover' }}
-          sizes="100vw"
-        />
-      </div>
-
+      
       {/* ════════════════════════════════
           CAPÍTULO II — TASSARA
          ════════════════════════════════ */}
@@ -425,6 +410,23 @@ export default function EcosDelaMemoria() {
           </div>
         </div>
       </section>
+
+      <div
+        className="full-image-break lightbox-trigger"
+        onClick={() => openLightbox(`${BASE}/desaparecidos_tandil.webp`, 'Desaparecidos de Tandil')}
+        role="button"
+        tabIndex={0}
+        aria-label="Ver imagen ampliada"
+      >
+        <Image
+          src={`${BASE}/desaparecidos_tandil.webp`}
+          alt="Desaparecidos de Tandil"
+          fill
+          style={{ objectFit: 'cover' }}
+          sizes="100vw"
+        />
+      </div>
+
 
       {/* ════════════════════════════════
           CAPÍTULO III — MARTIGNONI
