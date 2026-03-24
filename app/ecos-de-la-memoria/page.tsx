@@ -255,8 +255,8 @@ export default function EcosDelaMemoria() {
         <p>
           A 50 años del 24 de marzo de 1976, la sociedad argentina puede saber gran parte de lo
           que ocurrió durante la dictadura cívico-militar: terrorismo de Estado, desapariciones,
-          robo de bebés y la implementación de un modelo económico que destruyó la industria
-          nacional. El dolor, el trauma y la resistencia atravesaron a todas las generaciones.
+          robo de bebés y la implementación de un plan económico que provocó una profunda
+          desindustrialización del país mientras multiplicó por seis la deuda externa.
         </p>
         <p>
           Y aunque muchos de los relatos sobre lo que pasó a partir del golpe suelen hacer foco
@@ -264,15 +264,14 @@ export default function EcosDelaMemoria() {
           también sucedió.
         </p>
         <p>
-          Historias atravesadas por ausencias, treinta y siete personas desaparecidas, dos niños
+          Historias atravesadas por ausencias, treinta y siete personas desaparecidas, dos niños/as
           que deberían haber nacido en cautiverio y a los que aún se busca, personas secuestradas
-          y torturadas, severas restricciones a las libertades, censura, prohibición de libros en
-          las escuelas, persecución y un entramado de complicidades civiles, eclesiásticas y
-          militares que recién medio siglo después empiezan a desenredarse.
+          y torturadas, severas consecuencias en el plano económico e industrial, censura, miedo,
+          indiferencia.
         </p>
         <p>
           Desde las voces de vecinos sobrevivientes, testigos y protagonistas de aquella época,
-          este especial busca acercarse a responder una pregunta:{' '}
+          este especial de El Eco de Tandil busca acercarse a responder una pregunta:{' '}
           <strong>¿Cómo se vivió la dictadura en Tandil?</strong>
         </p>
       </section>
@@ -312,20 +311,31 @@ export default function EcosDelaMemoria() {
             <p>
               El miércoles 24 de marzo de 1976, la cúpula militar local se presentó en la
               Municipalidad de Tandil y le pidió a Jorge Lester, el intendente que tres años atrás
-              había asumido el poder comunal, que entregara el mando. Sin resistencia institucional,
-              Lester dejó su cargo y el coronel Juan Domingo Zanatelli —jefe del Regimiento de
-              Infantería Mecanizada 2 con asiento en Tandil— asumió como interventor.
+              había asumido el poder comunal, que entregara el mando y se retirara junto a sus
+              funcionarios. Ante lo inevitable, eligieron irse sin oponer resistencia. Esa mañana,
+              como tantas otras, los niños concurrieron a las escuelas y los adultos a sus trabajos.
+              Las maestras daban la noticia de que las clases se suspendían. "Vuelvan rápido a sus
+              casas", se escuchó en las aulas. La calle en silencio, los alumnos en silencio, la
+              ciudad en silencio.
             </p>
             <p>
               El jueves 25 de marzo de 1976, El Eco de Tandil tituló en la portada "Sin resistencia
-              alguna cayó el gobierno de Isabel Perón", junto a una imagen de Jorge Rafael Videla.
-              En la sección de noticias locales, el diario publicó que Zanatelli informó sobre la
-              situación en la ciudad con un mensaje que no dejaba dudas de la nueva realidad.
+              alguna cayó el gobierno de Isabel Perón", junto a una imagen de Jorge Rafael Videla. En
+              la sección de noticias locales, informó que "El teniente coronel J.J. Zanatelli se hizo
+              cargo de la Comuna". Más abajo, una fotografía del frente de la Municipalidad con
+              "apenas un vehículo militar estacionado". También se destacó el clima de tranquilidad
+              que se vivió en el Palacio Comunal tras el ingreso militar.
             </p>
             <p>
-              A los pocos días del golpe Zanatelli se institucionalizó como Intendente, cargo en el
+              A los pocos días del golpe, Zanatelli se institucionalizó como Intendente, cargo en el
               que estuvo hasta el 2 de julio de 1976, cuando fue relevado por el civil Adolfo
-              Fernández Trinchero, gerente del Banco Comercial de Tandil.
+              Fernández Trinchero, gerente del Banco Comercial y figura representativa del gran
+              empresariado local. En 1979, Zanatelli volvió a ocupar el sillón de Dufau, cargo que
+              mantuvo hasta 1983 cuando, en la apertura democrática, ganó las elecciones el radical
+              Américo Reynoso. Como sucedió en otros distritos, Julio José Zanatelli regresó a la
+              Intendencia en 1991 tras ser electo por el pueblo. Su gestión fue ratificada dos veces
+              en las urnas y gobernó la ciudad hasta principios de 2002, cuando renunció por
+              problemas de salud.
             </p>
             <div className="pullquote">
               <blockquote>
@@ -365,48 +375,64 @@ export default function EcosDelaMemoria() {
           </div>
           <div className="testimony-text fade-in">
             <p>
-              Roberto Tassara estaba en su departamento, a pocas cuadras de la universidad y del
-              estudio contable donde trabajaba, cuando se enteró del golpe de Estado del 24 de marzo
-              de 1976. Su primera impresión fue de desconcierto, pero no de alarma total.
+              Roberto Tassara, contador público y exRector de la Unicen, estaba en su departamento,
+              a pocas cuadras de la universidad y del estudio contable donde trabajaba, cuando se
+              enteró del golpe de Estado del 24 de marzo de 1976. La noticia le llegó, como a la
+              mayoría en ese tiempo, a través de la radio. No era la primera vez que vivía una
+              interrupción institucional. En ese momento lo pensó como una continuidad: un nuevo
+              golpe cívico-militar, como los anteriores.
             </p>
             <p>
               Tras escuchar la noticia, salió a la calle. Caminó hasta el estudio donde trabajaba y
-              desde allí se dirigieron a la sede de la Universidad Nacional del Centro. Tassara era
-              docente en la carrera de Ciencias Económicas y ocupaba un lugar en la vida
-              institucional universitaria.
+              desde allí se dirigieron a la sede de la Universidad Nacional del Centro, en pleno
+              centro de la ciudad. Tassara era nodocente, se desempeñaba como director general de
+              Presupuesto y además tenía una dedicación simple como docente. Al llegar, encontró que
+              el rector había sido reemplazado por un interventor militar.
+            </p>
+            <p>
+              Con el paso de los días, comenzaron a aparecer señales perturbadoras. Una de ellas fue
+              la visita de la familia de una excompañera de estudios, que había sido detenida en
+              Benito Juárez sin que se supiera su paradero. Tassara y otros colegas intentaron
+              averiguar qué había sucedido. Lograron entrevistarse con un militar que les confirmó
+              que la joven estaba detenida en Sierra Chica. "La tenemos nosotros", les dijo, y agregó
+              que la joven había sido inteligente en no mencionarlos, caso contrario debería haberlos
+              llamado para "hablar".
             </p>
             <div className="pullquote">
               <blockquote>
-                Hoy parece imposible, pero en ese momento no dimensionábamos la magnitud del
-                terrorismo de Estado ni la lógica de las desapariciones.
+                Hoy parece impensado, pero se sabía poco.
               </blockquote>
               <cite>Roberto Tassara</cite>
             </div>
             <p>
-              Con el paso de los días, comenzaron a aparecer señales perturbadoras. Una de ellas fue
-              la visita de la familia de una excompañera de estudios, que había sido detenida en
-              Benito Juárez sin que se supiera su paradero.
-            </p>
-            <p>
               Esa misma jornada, atravesado por la incertidumbre, tomó una decisión que le quedó
               grabada: al regresar a su departamento, reunió revistas, libros y materiales vinculados
-              a la Unión Soviética —que había adquirido en un viaje— y decidió quemarlos. Fue un
-              acto que sintetizó el clima de la época: la sospecha, el miedo, la necesidad de
-              eliminar cualquier elemento que pudiera ser considerado "subversivo".
+              a la Unión Soviética —que había heredado de su padre comunista y que incluía información
+              sobre ajedrez— y al pensamiento marxista, y los arrojó al incinerador del edificio. Fue
+              un gesto de autoprotección, motivado por el temor a posibles represalias.
             </p>
             <p>
               Como miembro del Consejo Profesional de Ciencias Económicas, fue convocado a formar
               parte de la Cotac, una comisión civil de asesoramiento al gobierno de facto, integrada
-              por representantes de la Asociación Empresaria, la Sociedad Rural, el Colegio de
-              Abogados y otras instituciones.
+              por representantes de la Asociación de la Pequeña y Mediana Industria Metalúrgica, la
+              Cámara Comercial e Industrial, la Sociedad Rural, la Asociación de Abogados, el Colegio
+              de Médicos, el Centro Profesional de la Ingeniería, el Círculo de Veterinarios, el
+              Colegio de Escribanos, el Consejo Profesional de Ciencias Económicas y dos miembros de
+              las Fuerzas Armadas.
             </p>
             <div className="pullquote">
               <blockquote>
-                El objetivo era debatir sobre distintos temas de ciudad, dar una opinión. Pero no
-                recuerdo que hayamos producido grandes cosas. Algo sobre estacionamiento y poco más.
+                Lo que me llevó a tomar esa decisión fue que advertí que, de algún modo, se intentaba
+                reemplazar al Concejo Deliberante: como si ciertos grupos sociales de Tandil
+                pudiéramos definir, al menos en lo económico, el destino de la ciudad. Ante eso,
+                decidí apartarme.
               </blockquote>
               <cite>Roberto Tassara</cite>
             </div>
+            <p>
+              La Cotac funcionó por lo menos hasta 1977 y tuvo injerencia en el destino del matadero
+              municipal, que terminó cerrando sus puertas, en tanto se puso en marcha uno privado.
+            </p>
           </div>
         </div>
       </section>
@@ -456,38 +482,45 @@ export default function EcosDelaMemoria() {
           </div>
           <div className="testimony-text fade-in">
             <p>
-              El nombre de Alicia Martignoni está indefectiblemente ligado a la educación
-              tandilense. Ejerció 40 años como docente, fue regente del Instituto Superior de
-              Formación Docente y Técnica 10 y fundó en la ciudad la Sala Abierta de Lectura
-              "José Hernández", un espacio que se convirtió en símbolo de resistencia cultural.
+              El nombre de Alicia Martignoni está indefectiblemente ligado a la educación tandilense.
+              Ejerció 40 años como docente, fue regente del Instituto Superior de Formación Docente y
+              Técnica 10 y fundó en la década del 80 la Sala Abierta de Lectura. En diálogo con El
+              Eco de Tandil recordó con nitidez el clima previo al golpe de Estado, no desde la
+              sorpresa sino desde una certeza inquietante: la de haber sabido, incluso antes del 24
+              de marzo de 1976, que una etapa oscura se avecinaba.
             </p>
             <p>
-              Estaba estudiando en Buenos Aires cuando cerraron la Facultad de Filosofía y Letras,
-              durante el gobierno de Isabel. Decidió con su marido venirse a Tandil, casarse y
-              quedarse.
+              "Yo estaba estudiando en Buenos Aires cuando cerraron la Facultad de Filosofía y Letras,
+              durante el gobierno de Isabel. Ahí decidimos con mi marido venirnos a Tandil, casarnos y
+              quedarnos. Teníamos miedo", contó. Pero el contexto ya era otro: compañeros que
+              desaparecían, listas negras, allanamientos.
             </p>
             <div className="pullquote">
               <blockquote>
-                Estábamos muy asustados. Ese día estábamos por poco debajo de la cama, porque
-                estábamos con mi marido y su familia, todos pensando: y ahora qué viene.
+                Estábamos muy asustados. Sí, ese día estábamos por poco debajo de la cama, porque
+                estábamos con mi marido, yo recién me había casado el 23 de enero del 76, y nosotros
+                sí sabíamos que estaban desapareciendo compañeros ya desde hacía por lo menos un año.
+                A diferencia de lo que muchos dicen hoy, nosotros sabíamos que era una desgracia lo
+                que venía.
               </blockquote>
               <cite>Alicia Martignoni</cite>
             </div>
             <p>
-              En el ámbito educativo, la dictadura también dejó su marca. Alicia había participado
-              en la elaboración de diseños curriculares en los años previos. Después vino una
-              depuración. Decían que había "ideología" en lo que habían hecho y empezaron a sacar
-              libros de las bibliotecas escolares.
+              En el ámbito educativo, la dictadura también dejó su marca. Alicia había participado en
+              la elaboración de diseños curriculares en los años previos. Después vino una depuración.
+              Decían que había "ideologías extrañas". Hasta Piaget era subversivo. En ese contexto
+              apareció un decreto del ministro de Educación de la dictadura que prohibía pedir libros
+              en las escuelas. "Lo vivimos como una afrenta", recordó.
             </p>
             <p>
               Esa prohibición, lejos de inmovilizarlas, generó una reacción. Junto a otras docentes,
-              impulsó la creación de bibliotecas escolares y, más adelante, proyectos como el Club
-              de Narradores y la Sala Abierta de Lectura.
+              impulsó la creación de bibliotecas escolares y, más adelante, proyectos como el Club de
+              Narradores y la Sala Abierta de Lectura.
             </p>
             <div className="pullquote">
               <blockquote>
-                Analizando los datos, contando lo que pasó, mucha gente vuelve a pensar. Yo tengo
-                fe en eso.
+                Analizando los datos, contando lo que pasó, mucha gente vuelve a pensar. Yo tengo fe
+                en eso.
               </blockquote>
               <cite>Alicia Martignoni</cite>
             </div>
@@ -522,14 +555,18 @@ export default function EcosDelaMemoria() {
           </div>
           <div className="testimony-text fade-in">
             <p>
-              Para el 24 de marzo del 76, Néstor Dipaola ya llevaba ocho años trabajando en El Eco
-              de Tandil. Aquella mañana se encontraba en la universidad y decidió acercarse al
-              "Bar Ideal", un espacio de encuentro de la dirigencia política local.
+              "Soy Néstor Dipaola y ya para ese entonces, el 24 de marzo del 76, yo estaba trabajando
+              en este diario, El Eco de Tandil, desde ocho años atrás", comenzó la entrevista el
+              entrañable periodista y escritor. Aquella mañana se encontraba en la universidad y
+              decidió acercarse al "Bar Ideal", un espacio de encuentro de la dirigencia política
+              local. Entre los presentes había posiciones diversas, incluso algunas favorables al
+              golpe.
             </p>
             <p>
               En relación con su trabajo periodístico, en esos años se desempeñaba en la sección
               Deportes, por lo que no tenía una participación directa en la cobertura política del
-              diario. Aun así, percibía el clima de tensión y los cambios en la línea editorial.
+              diario. Decidió permanecer en esa sección para poder seguir escribiendo y opinando,
+              algo que en otras áreas estaba vedado.
             </p>
             <div className="pullquote">
               <blockquote>
@@ -540,16 +577,16 @@ export default function EcosDelaMemoria() {
             </div>
             <p>
               Relató dos episodios que evidenciaron el funcionamiento de la censura. El primero
-              ocurrió hacia 1977, durante la organización de un desfile militar en Tandil. Dipaola
-              fue designado para cubrir el evento y, frente a la tribuna oficial, obtuvo la foto
-              principal. Pero cuando la imagen se publicó, el único militar que aparecía en ella
-              había sido retirado del servicio la noche anterior. La reacción fue inmediata: una
-              queja directa del Ejército y un llamado de atención al medio.
+              ocurrió hacia 1977, durante la organización de un desfile militar en Tandil. Tras una
+              conferencia de prensa, un coronel dio una orden explícita: "Y quiero ver mañana en las
+              páginas de los diarios por lo menos una página o dos completas sobre esta información.
+              Y quiero ver fotos, fotos bien grandes".
             </p>
             <p>
               El segundo episodio se vinculó con la cobertura del otorgamiento del Premio Nobel de
-              la Paz a Adolfo Pérez Esquivel. A través de los teletipos de la agencia oficial
-              Télam, llegó una directiva clara: no difundir la noticia.
+              la Paz a Adolfo Pérez Esquivel. A través de los teletipos de la agencia oficial Télam,
+              llegó una directiva clara: "Se recomienda a los señores editorialistas brindar escasa
+              importancia a esta información".
             </p>
             <p>
               No es un detalle menor que Juan Manuel Calvo, entonces director de El Eco de Tandil,
@@ -559,7 +596,7 @@ export default function EcosDelaMemoria() {
             <div className="pullquote">
               <blockquote>
                 Había bastante gente y la mitad, o tal vez un poco más de la mitad, aplaudiendo a
-                Videla. Eso te marca el clima.
+                gritos, aprobando el gobierno de Videla.
               </blockquote>
               <cite>Néstor Dipaola, sobre la visita de Videla a Tandil</cite>
             </div>
@@ -625,7 +662,15 @@ export default function EcosDelaMemoria() {
             <p>
               Julio Elichiribehety reconstruyó sus recuerdos desde una experiencia atravesada por
               la juventud, la distancia inicial con la política y una comprensión que, según contó,
-              se fue construyendo con el tiempo.
+              se fue profundizando con el paso del tiempo. Tenía poco más de veinte años y aún no
+              había votado. "Voté por primera vez a los 29 años", recordó.
+            </p>
+            <p>
+              Aquel día lo sorprendió en un contexto que ya anticipaba una ruptura institucional.
+              "Había un clima previo, una percepción de que podía haber algún tipo de interrupción
+              institucional". En su mirada retrospectiva, insistió en que estos procesos no fueron
+              hechos aislados: "Los golpes de Estado no son producto de un hecho mesiánico, sino que
+              son planificados, pensados, y han tenido adhesión de sectores de la sociedad".
             </p>
             <p>
               En relación con Tandil, que por entonces contaba con poco más de 70 mil habitantes,
@@ -633,16 +678,15 @@ export default function EcosDelaMemoria() {
             </p>
             <div className="pullquote">
               <blockquote>
-                No es que no pasaba nada, pero había una mirada un tanto laxa sobre lo que sucedía.
-                Y eso es lo que hay que revisar.
+                No es que no pasaba nada, pero había una mirada un tanto laxa sobre los temas.
               </blockquote>
               <cite>Julio Elichiribehety</cite>
             </div>
             <p>
               Durante los primeros años de la dictadura predominó una especie de silencio social.
-              "Había como una demanda subterránea, por debajo de la media", explicó. En ese sentido,
-              coincidió con otros testimonios al señalar que muchos tandilenses no percibían en su
-              totalidad lo que estaba ocurriendo.
+              "Había como una demanda subterránea, por debajo de la media", explicó. Remarcó que los
+              abogados Victorino y Juan Carlos Pugliese (h), Pedersoli y Gutiérrez se animaron a
+              presentar hábeas corpus para conocer el destino de las personas secuestradas.
             </p>
             <p>
               El punto de inflexión en su vida política llegó con la recuperación democrática y la
@@ -688,37 +732,41 @@ export default function EcosDelaMemoria() {
             <p>
               En 1974, Enrique Lalloz empezó a consolidar una trayectoria en la industria local.
               Ingeniero metalúrgico, se desempeñó durante más de 30 años en Metalúrgica Tandil,
-              donde llegó a ser gerente.
+              donde llegó a ser gerente. Su recuerdo de aquellos años no se centra en un hecho
+              puntual, sino en un proceso que, con el tiempo, marcaría un quiebre profundo en la
+              actividad productiva local.
             </p>
             <div className="pullquote">
               <blockquote>
                 Era una empresa emblemática, no solo a nivel nacional sino regional. Trabajábamos
-                para todas las automotrices, para la industria petrolera, para la siderurgia.
+                para todas las automotrices: General Motors, Mercedes-Benz, Renault, Fiat. Era un
+                volumen muy alto de producción.
               </blockquote>
               <cite>Enrique Lalloz</cite>
             </div>
             <p>
               Sin embargo, ese escenario comenzó a cambiar rápidamente. Con la política económica
-              de Martínez de Hoz, empezó una desindustrialización muy fuerte. Cayó el 30 por ciento
-              de la producción de Metalúrgica Tandil por dejar de fabricar piezas para General
-              Motors.
+              de Martínez de Hoz, empezó una desindustrialización muy fuerte. Se abrió la
+              importación masiva e indiscriminada y muchas actividades empezaron a sucumbir. Cayó
+              el 30 por ciento de la producción de Metalúrgica Tandil por dejar de fabricar piezas
+              para General Motors.
             </p>
             <p>
-              A la par, describió un cambio de clima en torno a la industria nacional. Se empezó a
-              denostar el equipamiento, la tecnología, se instaló la idea de que el país no estaba
-              para eso. El deterioro no fue solo productivo. Metalúrgica también sufrió pérdidas
-              humanas, despidos, y un clima de silencio dentro de la fábrica.
+              El deterioro no fue solo productivo. "Metalúrgica también sufrió pérdidas humanas,
+              desapariciones de personas. Es muy conmocionante ver que alguien desaparece del
+              ámbito laboral y nunca más se sabe de él".
             </p>
             <div className="pullquote">
               <blockquote>
                 Hoy ves galpones abandonados, actividad caída. Antes podíamos fabricar un motor
-                entero y hoy no podemos hacer un bloc. Mucha capacidad se perdió y no se recuperó.
+                entero y hoy no podemos hacer un bloc.
               </blockquote>
               <cite>Enrique Lalloz</cite>
             </div>
             <p>
               Cuando ingresó había unos 1.100 trabajadores. Después bajó a 800, a 600, y así fue
-              cayendo hasta cifras mucho más bajas.
+              cayendo hasta cifras mucho más bajas. "Metalúrgica Tandil" cerró definitivamente en
+              2018.
             </p>
           </div>
         </div>
@@ -767,48 +815,52 @@ export default function EcosDelaMemoria() {
           </div>
           <div className="testimony-text fade-in">
             <p>
-              Desde el barrio Obrero, Adriana Palacio y Juan de Dios González reconstruyeron sus
-              memorias del 24 de marzo de 1976 y de los años que siguieron, atravesadas por el
-              miedo, la identidad barrial y la resistencia silenciosa.
+              Desde el barrio Obrero —también conocido como barrio General Belgrano— Adriana Palacio
+              y Juan de Dios González reconstruyeron sus memorias del 24 de marzo de 1976 y de los
+              años que siguieron, atravesados por el miedo, la incertidumbre y la vida cotidiana
+              alterada.
             </p>
             <p>
-              Adriana evocó una escena precisa de ese día, cuando era adolescente y salía rumbo a
-              la escuela. Fue a buscar a su prima y vio el camión del Ejército en la calle. Fue la
-              primera imagen de la dictadura que registraron sus ojos.
+              Adriana evocó una escena precisa de ese día, cuando era adolescente y salía rumbo a la
+              escuela. Fue a buscar a su prima y encontró la calle desierta. "Había dos soldados con
+              armas largas que no nos dejaban pasar. 'Hoy no hay clase', nos dijeron. Y vos no te
+              atrevías a decir nada más. Yo le miraba la cara y la tengo como si hubiera pasado ayer".
             </p>
             <div className="pullquote">
               <blockquote>
                 Éramos pibes y no teníamos la información que hay hoy. De repente escuchabas cosas
-                y después esos vecinos no estaban más.
+                y después esos vecinos no estaban más. La casa con un cartel de venta. Una
+                incertidumbre en el cuerpo, horrible.
               </blockquote>
               <cite>Juan de Dios González</cite>
             </div>
             <p>
               La vida en el barrio, marcado por su identidad trabajadora, también se vio golpeada.
-              Todos atravesados por gremios: un padre municipal, al lado un metalúrgico. Y el miedo,
-              porque te enterabas que entraban a las casas.
+              "Todos atravesados por gremios: mi papá municipal, al lado un metalúrgico. Y el miedo,
+              porque te enterabas que entraban a las casas, que allanaban", contó Adriana.
             </p>
             <p>
-              Juan de Dios agregó que el objetivo era derribar toda forma de organización de base.
-              Los gremios fueron intervenidos. Y eso iba debilitando todo, porque en las fábricas
-              aparecían personas que no representaban a nadie.
+              Juan de Dios agregó: "Ellos tenían que derribar toda forma de organización de base. Los
+              gremios fueron intervenidos. Y eso iba debilitando todo, porque en las fábricas
+              aparecían personas que no representaban a los trabajadores".
             </p>
             <div className="pullquote">
               <blockquote>
-                Se prendieron todas las luces y entró la Policía. Nos llevaron a todos en un camión.
-                Nos soltaron a las cuatro de la mañana. Nunca supimos por qué.
+                Se prendieron todas las luces y entró la Policía. Nos llevaron a todos en un camión
+                celular. Estuvimos toda la noche en la comisaría. Éramos menores. Una cosa espantosa.
               </blockquote>
               <cite>Adriana Palacio, sobre una noche en un local bailable</cite>
             </div>
             <p>
               En esa trama colectiva aparece una historia que ambos destacan como símbolo: la
-              protección del busto de Eva Perón en la plaza del barrio. Siempre se lo llevaban en
-              cada dictadura. Y los vecinos pensaban: no, otra vez no.
+              protección del busto de Eva Perón en la plaza del barrio. "Siempre se lo llevaban en
+              cada dictadura. Y nosotros pensábamos que se lo había llevado la Policía pero no, lo
+              tenían los vecinos", contó Adriana.
             </p>
             <p>
-              Lo guardaban en sus casas, en un placard, en un altillo. Y después lo volvían a poner.
-              Siempre. El barrio lo resguardó en cada dictadura. Ese gesto, repetido en el tiempo,
-              sintetizó una forma de resistencia comunitaria.
+              "Lo guardaban en sus casas, en un placard, en un altillo. Y después lo volvían a poner.
+              Siempre. El barrio lo resguardó en cada dictadura", completó Juan de Dios. Hoy todavía
+              se hacen homenajes todos los 26 de julio en la plaza.
             </p>
           </div>
         </div>
@@ -872,13 +924,19 @@ export default function EcosDelaMemoria() {
           <div className="testimony-text fade-in">
             <p>
               El 24 de marzo de 1976, La Plata amaneció bajo un clima que ya no era sorpresa para
-              quienes militaban. Para Petra Marzocca, ya había secuestros, desapariciones. Los
-              controles eran parte de la vida cotidiana.
+              quienes militaban. Para Petra Marzocca, trabajadora de la salud e integrante de
+              espacios vinculados a la organización de base y la Juventud Peronista, el golpe fue la
+              confirmación de una escalada represiva que llevaba tiempo en marcha. "Ya había
+              secuestros, desapariciones. Los controles eran parte de la vida cotidiana", refirió.
+              Esa mañana, el grupo acordó un punto de encuentro: el mercado. Solo miradas. "Nos
+              reconocíamos sin hablarnos. Así sabíamos si estábamos todas o si faltaba alguien".
+              Ninguna de sus compañeras del área de salud sobreviviría.
             </p>
             <p>
-              En octubre de 1976 Petra pudo salir de La Plata y se radicó en Río Negro. Recién en
-              1984, ya en democracia, pudo empezar a reconstruir lo que había ocurrido con sus
-              compañeros desaparecidos.
+              En octubre de 1976 Petra pudo salir de La Plata y se radicó en Río Negro, provincia
+              que la cobijó varios años. Recién en 1984, ya en democracia, pudo empezar a reconstruir
+              lo que había ocurrido con su familia. Sus dos hermanos, Ángel y Mario, y su cuñada,
+              fueron desaparecidos entre 1977 y 1978 en el conurbano bonaerense.
             </p>
             <div className="pullquote">
               <blockquote>
@@ -888,19 +946,23 @@ export default function EcosDelaMemoria() {
               <cite>Petra Marzocca</cite>
             </div>
             <p>
+              Cuando volvió a Tandil, el contraste fue brutal. "Era como hablar otro idioma", dijo
+              sobre sus primeros encuentros con conocidos. Mientras ella traía una experiencia
+              atravesada por la persecución y la pérdida, gran parte de la sociedad sostenía que
+              "acá no había pasado nada".
+            </p>
+            <p>
               En 1996, a 20 años del golpe, Petra fue parte de la creación de "Memoria por la Vida
               en Democracia", un espacio multisectorial que buscó visibilizar lo ocurrido en la
-              ciudad.
-            </p>
-            <p>
-              La primera marcha —del Dique al centro— marcó un antes y un después. Allí se
+              ciudad. La primera marcha —del Dique al centro— marcó un antes y un después. Allí se
               denunciaron públicamente los centros clandestinos de detención locales y se pusieron
-              nombres propios a las víctimas.
+              nombres propios a las víctimas. Pero la reacción no tardó: amenazas, pintadas,
+              seguimiento. "La inteligencia seguía funcionando".
             </p>
             <p>
-              Una de las acciones más significativas fue la publicación en los diarios locales de
-              las fotos y datos de personas desaparecidas de Tandil. Era para que la gente se
-              encontrara con esas caras y supiera que eran vecinos suyos.
+              Una de las acciones más significativas fue la publicación en los diarios locales de las
+              fotos y datos de personas desaparecidas de Tandil. "Era para que la gente se encontrara
+              con eso en la vida cotidiana. Muchos decían: 'yo no sabía'".
             </p>
             <div className="pullquote">
               <blockquote>
@@ -926,7 +988,7 @@ export default function EcosDelaMemoria() {
           </div>
           <div className="testimony-who">
             <strong>Cecilia Traficante</strong>
-            Hermana de María Hebe Traficante, desaparecida en junio de 1976
+            Hermana de María Hebe Traficante, desaparecida en junio de 1977
           </div>
         </div>
         <div className="testimony-body">
@@ -941,32 +1003,38 @@ export default function EcosDelaMemoria() {
           </div>
           <div className="testimony-text fade-in">
             <p>
-              Cecilia Traficante tenía 16 años y vivía en Benito Juárez cuando ocurrió el golpe.
-              María Hebe, su hermana de 24 años, y su compañero Carlos Martínez, fueron secuestrados
-              a fines de junio de 1976 en Tandil. Se los llevaron del "Hotel Turista", en 14 de
-              Julio al 60.
+              Cecilia Traficante no pudo recordar con precisión el 24 de marzo de 1976. Tenía 16
+              años y vivía en Benito Juárez. Pero su memoria se vuelve precisa y dolorosamente clara
+              a partir de 1977, cuando su hermana María Hebe fue secuestrada. María Hebe, de 24 años,
+              y su compañero, Carlos Martínez, fueron secuestrados a fines de junio de ese año en
+              Tandil. Se los llevaron del "Hotel Turista", en 14 de Julio al 60, donde vivían por su
+              trabajo.
             </p>
             <div className="pullquote">
               <blockquote>
                 Pararon tres autos negros, bajaron unas diez personas armadas. Mostraron una
-                credencial, preguntaron por ellos. La dueña del hotel no quería abrir la puerta.
+                credencial, preguntaron por ellos. La dueña del hotel no quería decir nada, pero la
+                amenazaron con su hijo.
               </blockquote>
               <cite>Cecilia Traficante, según testigos del secuestro</cite>
             </div>
             <p>
-              Desde entonces, la casa quedó atravesada por el silencio. Su mamá no hablaba.
-              Recordaba cosas lindas de cuando ella estaba, pero del tema no se hablaba. Todo lo
-              hizo el padre: denuncias, gestiones, lo que pudo.
+              La noticia del secuestro llegó tres días después. Cecilia recuerda con exactitud ese
+              momento: estaba atándose los cordones para ir al colegio cuando vio llegar al padre de
+              Carlos. "Ahí les contó a mis papás que se habían llevado a los chicos. Fue la primera
+              vez que vi llorar a mi papá".
             </p>
             <p>
-              La desaparición no solo implicó la ausencia, sino también una vida cotidiana
-              fracturada. Iba al colegio y era como tener un secreto. Para todos era un día normal,
-              pero para ella no. Nadie preguntaba, nadie decía nada.
+              Desde entonces, la casa quedó atravesada por el silencio. "Mi mamá no hablaba.
+              Recordaba cosas lindas de cuando ella estaba, pero del tema no se hablaba. Todo lo hizo
+              mi papá: denuncias, gestiones, lo que se podía. En Juárez ningún abogado quiso ayudar.
+              Tuvieron que buscar en Tandil".
             </p>
             <p>
-              Con los años, apareció otro dato que reconfiguró el dolor: María Hebe estaba
-              embarazada de cuatro meses al momento del secuestro. A partir de entonces comenzó
-              otra búsqueda: la del nieto o nieta nacido en cautiverio.
+              Con los años, apareció otro dato que reconfiguró el dolor: María Hebe estaba embarazada
+              de cuatro meses al momento del secuestro. "Fue una mezcla de todo: miedo, esperanza,
+              angustia. Pero también fue algo que a mis papás les dio alegría. Decían 'nos dejó algo'".
+              A partir de entonces comenzó otra búsqueda: la del nieto o nieta nacido en cautiverio.
             </p>
             <div className="pullquote">
               <blockquote>
@@ -977,8 +1045,10 @@ export default function EcosDelaMemoria() {
             </div>
             <p>
               Cuando recuerda a su hermana, aparecen escenas simples: su llegada a la casa, su ropa,
-              sus gestos. Era libre, solidaria, muy inteligente. No le importaba lo material. Era
-              una buena persona.
+              sus gestos. "Era libre, solidaria, muy inteligente. No le importaba lo material. Era una
+              buena persona". A casi cinco décadas, la ausencia sigue siendo una presencia constante.
+              La primera Navidad después de la desaparición: "Le pusimos el plato. La esperamos. No
+              vino".
             </p>
           </div>
         </div>
@@ -1079,8 +1149,8 @@ export default function EcosDelaMemoria() {
             <div className="timeline-text">
               Se realizó en Tandil el juicio por el secuestro y asesinato del abogado laboralista
               Carlos Moreno. Fueron condenados los cinco acusados, entre ellos dos civiles: los
-              hermanos Emilio y Juan José Méndez, integrantes de la familia propietaria de
-              Metalúrgica Tandil.
+              hermanos Emilio y Julio Méndez. Ambos fueron absueltos en un fallo posterior. Emilio
+              murió en 2023, sin conocer la definición procesal final de la Justicia.
             </div>
             <div className="testimony-image" style={{ marginTop: '1.5rem', maxWidth: '560px' }}>
               <Image
@@ -1098,10 +1168,7 @@ export default function EcosDelaMemoria() {
             <div className="timeline-text">
               Culminó el juicio donde se juzgaron gran parte de los crímenes de lesa humanidad
               cometidos en Tandil y la región. De los 35 acusados, la Justicia condenó a ocho y
-              absolvió a los otros veintisiete. El fallo generó reacciones encontradas: por un lado,
-              significó el reconocimiento institucional de lo ocurrido; por otro, la cantidad de
-              absoluciones dejó un sabor amargo entre organismos de derechos humanos y familiares
-              de víctimas.
+              absolvió a los otros 27. Las querellas apelaron esta decisión.
             </div>
           </div>
           <div className="timeline-item">
@@ -1110,8 +1177,11 @@ export default function EcosDelaMemoria() {
             <div className="timeline-text">
               A 50 años del golpe de Estado, las familias y organismos de derechos humanos continúan
               buscando saber qué pasó con los desaparecidos de Tandil, y en particular por el destino
-              de dos bebés que debieron nacer en cautiverio. En las aulas, en los clubes y en las
-              plazas, Tandil sigue haciendo memoria.
+              de dos bebés que debieron haber nacido en cautiverio. Uno, el hijo de María Hebe
+              Traficante y Carlos Martínez, que tendría que haber nacido entre noviembre y diciembre
+              de 1977. Otro, el hijo de Haydée Susana Valor y Omar Marocchi, que tendría que haber
+              nacido entre marzo y abril de 1977. En las aulas, en los clubes y en las plazas, Tandil
+              sigue haciendo memoria.
             </div>
           </div>
         </div>
