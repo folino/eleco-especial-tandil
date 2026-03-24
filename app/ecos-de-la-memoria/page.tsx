@@ -298,15 +298,18 @@ export default function EcosDelaMemoria() {
           </div>
         </div>
         <div className="testimony-body">
-          <div className="testimony-image portrait">
-            <Image
-              src={`${BASE}/zanatelli.webp`}
-              alt="Coronel Juan Domingo Zanatelli, interventor de Tandil tras el golpe del 24 de marzo de 1976"
-              fill
-              style={{ objectFit: 'cover', objectPosition: 'top' }}
-              sizes="100vw"
-            />
-          </div>
+          <figure className="testimony-figure">
+            <div className="testimony-image portrait">
+              <Image
+                src={`${BASE}/zanatelli.webp`}
+                alt="Coronel Juan Domingo Zanatelli, interventor de Tandil tras el golpe del 24 de marzo de 1976"
+                fill
+                style={{ objectFit: 'cover', objectPosition: 'top' }}
+                sizes="100vw"
+              />
+            </div>
+            <figcaption className="testimony-caption">Julio José Zanatelli</figcaption>
+          </figure>
           <div className="testimony-text fade-in">
             <p>
               El miércoles 24 de marzo de 1976, la cúpula militar local se presentó en la
@@ -948,11 +951,6 @@ export default function EcosDelaMemoria() {
           <div className="closing-quote">
            En las aulas, en los clubes y en las plazas, Tandil sigue haciendo memoria.
           </div>
-          <p className="closing-text">
-            Este especial fue posible gracias a los testimonios de quienes aceptaron compartir sus
-            vivencias. A ellos, nuestro profundo agradecimiento. Porque contar es una forma de
-            resistir, y recordar, una forma de construir futuro.
-          </p>
         </div>
       </section>
 
