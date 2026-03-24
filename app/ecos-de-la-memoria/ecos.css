@@ -536,8 +536,8 @@
   position: relative;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  max-height: 300px;
-  overflow: hidden;
+ 
+ 
 }
 
 .ecos-page .full-image-break::before {
