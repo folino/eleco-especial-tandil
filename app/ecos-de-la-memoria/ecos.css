@@ -371,6 +371,7 @@
 .ecos-page .testimony-image.portrait {
   aspect-ratio: 3/4;
   max-width: 480px;
+  max-height: 300px;
 }
 
 .ecos-page .testimony-image.wide {

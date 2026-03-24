@@ -304,7 +304,7 @@ export default function EcosDelaMemoria() {
               src={`${BASE}/zanatelli.webp`}
               alt="Coronel Juan Domingo Zanatelli, interventor de Tandil tras el golpe del 24 de marzo de 1976"
               fill
-              style={{ objectFit: 'cover' }}
+              style={{ objectFit: 'cover', objectPosition: 'top' }}
               sizes="100vw"
             />
           </div>
