@@ -499,9 +499,10 @@ export default function EcosDelaMemoria() {
               <blockquote>
                 Estábamos muy asustados. Sí, ese día estábamos por poco debajo de la cama, porque
                 estábamos con mi marido, yo recién me había casado el 23 de enero del 76, y nosotros
-                sí sabíamos que estaban desapareciendo compañeros ya desde hacía por lo menos un año.
-                A diferencia de lo que muchos dicen hoy, nosotros sabíamos que era una desgracia lo
-                que venía.
+                sí sabíamos que estaban desapareciendo compañeros ya desde hacía por lo menos un año,
+                otros compañeros y compañeras que aún viven estaban presos por el accionar contra la
+                llamada subversión y estaban desapareciendo muchos compañeros. A diferencia de lo que
+                muchos dicen hoy, nosotros sabíamos que era una desgracia lo que venía.
               </blockquote>
               <cite>Alicia Martignoni</cite>
             </div>
@@ -832,7 +833,7 @@ export default function EcosDelaMemoria() {
                 y después esos vecinos no estaban más. La casa con un cartel de venta. Una
                 incertidumbre en el cuerpo, horrible.
               </blockquote>
-              <cite>Juan de Dios González</cite>
+              <cite>Adriana Palacio</cite>
             </div>
             <p>
               La vida en el barrio, marcado por su identidad trabajadora, también se vio golpeada.
@@ -1039,7 +1040,7 @@ export default function EcosDelaMemoria() {
             <div className="pullquote">
               <blockquote>
                 Seguimos esperando. Yo sé que ese bebé nació y en algún lado está. Y lo seguimos
-                buscando.
+                esperando.
               </blockquote>
               <cite>Cecilia Traficante</cite>
             </div>
@@ -1155,7 +1156,7 @@ export default function EcosDelaMemoria() {
             <div className="testimony-image" style={{ marginTop: '1.5rem', maxWidth: '560px' }}>
               <Image
                 src={`${BASE}/hermanos_mendez.webp`}
-                alt="Hermanos Emilio y Juan José Méndez"
+                alt="Hermanos Emilio y Julio Méndez"
                 fill
                 style={{ objectFit: 'cover' }}
                 sizes="560px"
