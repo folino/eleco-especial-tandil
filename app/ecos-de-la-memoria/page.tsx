@@ -1135,51 +1135,58 @@ export default function EcosDelaMemoria() {
           FOOTER
          ════════════════════════════════ */}
       <footer className="footer">
-        <p className="footer-statement">
-          Desde las voces de vecinos sobrevivientes, testigos y protagonistas de aquella época,
-          este especial de <em>El Eco</em> busca acercarse a responder una pregunta:{' '}
-          <strong>¿Cómo se vivió la dictadura en Tandil?</strong>
-        </p>
 
-        <div className="footer-divider" />
+        <div className="footer-top">
+          <p className="footer-statement">
+            Desde las voces de vecinos sobrevivientes, testigos y protagonistas de aquella época,
+            este especial de <em>El Eco</em> busca acercarse a responder una pregunta:{' '}
+            <strong>¿Cómo se vivió la dictadura en Tandil?</strong>
+          </p>
+        </div>
 
         <div className="footer-cols">
           <div className="footer-col">
-            <div className="footer-col-title">Fuentes</div>
+            <div className="footer-col-title">Archivos y fuentes</div>
             <ul className="footer-sources">
               <li>Archivo del diario El Eco de Tandil</li>
-              <li>Archivo diario Nueva Era de la hemeroteca de la Biblioteca Rivadavia</li>
+              <li>Archivo diario Nueva Era — Hemeroteca Biblioteca Rivadavia</li>
               <li>Archivo Memoria por la Vida en Democracia</li>
               <li>Página Desaparición María Hebe Traficante y Carlos Martínez</li>
               <li>Archivo Provincial de la Memoria</li>
               <li>Huellas de la Memoria</li>
               <li>Faro de la Memoria</li>
-              <li>
-                <em>Tandil Bicentenario (De aldea a ciudad)</em> — Unicen, 2023
-              </li>
-              <li>
-                <em>Los trabajadores argentinos y la última dictadura</em> — Daniel Dicósimo,
-                Unicen, 2018
-              </li>
               <li>Recuerdos de vecinos y vecinas de Tandil</li>
             </ul>
           </div>
 
           <div className="footer-col">
-            <div className="footer-col-title">Realización</div>
-            <ul className="footer-sources">
-              <li>Marisol Córdoba</li>
-              <li>Juan Manuel Artero</li>
+            <div className="footer-col-title">Bibliografía</div>
+            <ul className="footer-sources footer-biblio">
+              <li>
+                <em>Tandil Bicentenario (De aldea a ciudad)</em>
+                <span>Unicen, 2023</span>
+              </li>
+              <li>
+                <em>Los trabajadores argentinos y la última dictadura</em>
+                <span>Daniel Dicósimo — Unicen, 2018</span>
+              </li>
             </ul>
+          </div>
+
+          <div className="footer-col footer-col-credits">
+            <div className="footer-col-title">Realización</div>
+            <div className="footer-names">
+              <span>Marisol Córdoba</span>
+              <span>Juan Manuel Artero</span>
+            </div>
+            <div className="footer-place">Tandil, 2026</div>
           </div>
         </div>
 
-        <div className="footer-divider" />
-
         <div className="footer-bottom">
           <span className="footer-brand">El Eco de Tandil · Especiales</span>
-          <span className="footer-place">Tandil, 2026</span>
         </div>
+
       </footer>
 
       {/* ── Lightbox ── */}

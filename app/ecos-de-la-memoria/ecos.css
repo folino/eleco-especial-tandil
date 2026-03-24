@@ -705,40 +705,49 @@
 /* ─── FOOTER ─── */
 .ecos-page .footer {
   border-top: 1px solid var(--gray-800);
-  padding: 4rem 2rem 3rem;
-  max-width: 860px;
+  padding: 5rem 2rem 3rem;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
-.ecos-page .footer-statement {
-  font-family: var(--font-body);
-  font-size: 1rem;
-  line-height: 1.7;
-  color: var(--gray-400);
+.ecos-page .footer-top {
   text-align: center;
-  max-width: 640px;
-  margin: 0 auto 2rem;
+  padding-bottom: 3.5rem;
+  border-bottom: 1px solid var(--gray-800);
+  margin-bottom: 3rem;
 }
 
-.ecos-page .footer-divider {
-  height: 1px;
-  background: var(--gray-800);
-  margin: 2rem 0;
+.ecos-page .footer-statement {
+  font-family: var(--font-display);
+  font-size: clamp(1rem, 1.8vw, 1.2rem);
+  font-weight: 300;
+  line-height: 1.75;
+  color: var(--gray-400);
+  max-width: 660px;
+  margin: 0 auto;
+}
+
+.ecos-page .footer-statement strong {
+  color: var(--gray-200);
+  font-weight: 500;
 }
 
 .ecos-page .footer-cols {
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 3rem;
+  grid-template-columns: 1.4fr 1fr 0.8fr;
+  gap: 2.5rem;
+  align-items: start;
 }
 
 .ecos-page .footer-col-title {
   font-family: var(--font-mono);
-  font-size: 0.6rem;
-  letter-spacing: 0.3em;
+  font-size: 0.55rem;
+  letter-spacing: 0.35em;
   text-transform: uppercase;
   color: var(--accent);
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--gray-800);
 }
 
 .ecos-page .footer-sources {
@@ -747,36 +756,72 @@
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 0.45rem;
+  gap: 0.5rem;
 }
 
 .ecos-page .footer-sources li {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
-  letter-spacing: 0.03em;
+  font-size: 0.62rem;
+  letter-spacing: 0.02em;
   color: var(--gray-600);
-  line-height: 1.5;
-  padding-left: 0.8rem;
-  border-left: 1px solid var(--gray-800);
+  line-height: 1.55;
 }
 
-.ecos-page .footer-bottom {
+.ecos-page .footer-biblio li {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  gap: 0.15rem;
 }
 
-.ecos-page .footer-brand {
-  font-family: var(--font-display);
-  font-size: 0.75rem;
-  letter-spacing: 0.1em;
+.ecos-page .footer-biblio li em {
+  font-style: italic;
   color: var(--gray-500);
+}
+
+.ecos-page .footer-biblio li span {
+  color: var(--gray-700);
+  font-size: 0.58rem;
+}
+
+.ecos-page .footer-col-credits {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.ecos-page .footer-names {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.ecos-page .footer-names span {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  color: var(--gray-300);
 }
 
 .ecos-page .footer-place {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.58rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gray-700);
+}
+
+.ecos-page .footer-bottom {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--gray-800);
+  text-align: center;
+}
+
+.ecos-page .footer-brand {
+  font-family: var(--font-display);
+  font-size: 0.7rem;
   letter-spacing: 0.15em;
+  text-transform: uppercase;
   color: var(--gray-700);
 }
 
@@ -965,12 +1010,18 @@
 
   .ecos-page .footer-cols {
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: 2.5rem;
   }
 
-  .ecos-page .footer-bottom {
-    flex-direction: column;
-    gap: 0.5rem;
-    text-align: center;
+  .ecos-page .footer-col-credits {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 1rem;
+  }
+
+  .ecos-page .footer-names {
+    flex-direction: row;
+    gap: 1.2rem;
   }
 }
